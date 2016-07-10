@@ -1,0 +1,115 @@
+#dialogBadgeInformation {
+  position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    display:  none;
+    z-index:1001;  
+}
+
+#dialogBadgeInformation #badgePreview {
+    border-radius: 100px;
+	-webkit-border-radius: 100px;
+	-moz-border-radius: 100px;
+    margin:  0px auto 10%;
+    text-align: center;
+}
+
+#dialogBadgeInformation #badgePreview img {
+    padding:  5px;
+    width:  45%;
+	height: auto;
+	border-radius: 100px;
+	-webkit-border-radius: 100px;
+	-moz-border-radius: 100px;
+    margin:  10% auto 5%;
+}
+
+#dialogBadge {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    display:  none;
+    z-index:1001;
+    
+}
+
+#dialogBadge .blackout, #dialogBadgeInformation .blackout {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    -moz-opacity: 0.9;
+    opacity:.90;
+    filter: alpha(opacity=90);
+}
+
+#dialogBadge .wrapper, #dialogBadgeInformation .wrapper {
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    width: 69%;
+    padding: 2%;
+    background-color: #fff;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+}
+
+#dialogBadge .wrapper .title, #dialogBadgeInformation .wrapper .title {
+    width:  100%;
+    text-align: center;
+    font-size:  0.7em;
+    font-weight:  bold;
+    color:  #444;
+    margin-top:  1%;
+    margin-bottom:  1%;
+}
+
+#dialogBadge .wrapper table, #dialogBadgeInformation .wrapper table {
+    width:  100%;
+    border-collapse: collapse;
+}
+
+#dialogBadge .wrapper table td, #dialogBadgeInformation .wrapper table td {
+    vertical-align: top;
+}
+
+#dialogBadge .wrapper table .icon, #dialogBadgeInformation .wrapper table .icon {
+    width:  30%;
+    vertical-align: top;
+}
+
+#dialogBadge .wrapper table img, #dialogBadgeInformation .wrapper table img {
+    width:  100%;
+    height:  auto;
+    vertical-align: top;
+}
+
+#dialogBadge .wrapper table .badgeName, #dialogBadgeInformation .wrapper table .badgeName {
+    font-size:  0.6em;
+    font-weight:  bold;
+    padding-top:  7%;
+    width:  100%;
+    
+}
+
+#dialogBadge .wrapper table .badgeDescription, #dialogBadgeInformation .wrapper table .badgeDescription {
+    padding-top: 2%;
+    padding-bottom:  2%;
+    font-size:  0.5em;
+    font-weight:  normal;
+    width:  100%;
+}
+
+#dialogBadge .wrapper .dismiss, #dialogBadgeInformation .wrapper .dismiss {
+    width:  100%;
+    font-weight: bold;
+    color:  #888;
+    font-size:  0.6em;
+    text-align: center;
+    /*border-top:  1px solid #005d83;*/
+    border-top:  1px solid #fafafa;
+    padding-top: 3%;
+}

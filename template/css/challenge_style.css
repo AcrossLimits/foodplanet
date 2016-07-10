@@ -1,0 +1,1193 @@
+/* Challenge Start */
+#challenge_start, #challenge_end {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    position: absolute;
+    width: 100%;
+}
+
+#challenge_start #challengeStartUpper {
+    background-color: #fff; 
+    margin-bottom: 5%;
+    min-height: 10px;
+    padding-top: 5%;
+    padding-bottom: 8%;
+    width: 100%;
+}
+
+#challenge_end #challengeEndUpper {
+    background-color: #fff; 
+    margin-bottom: 0.9em;
+    min-height: 10px;
+    padding-top: 1em;
+    padding-bottom: 0.1em;
+    width: 100%;
+}
+
+#challenge_start #challengeStartUpper .challengePlayersWrapper, #challenge_end #challengeEndUpper .challengePlayersWrapper {
+    margin: 0px auto 0px;
+    border-collapse: collapse;
+    width:  95%;
+}
+
+#challenge_start #challengeStartUpper .challengePlayersWrapper td, #challenge_end #challengeEndUpper .challengePlayersWrapper td {
+    vertical-align: top;
+    width: 50%;
+}
+
+#challenge_start #challengeStartUpper .challengePlayersWrapper #challengeStartUpperSpacer, #challenge_end #challengeEndUpper .challengePlayersWrapper #challengeEndUpperSpacer {
+    vertical-align: top;
+    width: 20% !important;
+    background-color: #fff !important;
+    display: none;
+}
+
+#challenge_start #challengeStartUpper .playerWrapper, #challenge_end #challengeEndUpper .playerWrapper{
+    margin: 0px auto 0px;
+    border: 0px solid #000;       
+}
+
+#challenge_start #challengeStartUpper .playerPhoto,  #challenge_end #challengeEndUpper .playerPhoto{
+    width: 3.2em;
+    height: 3.2em;
+    text-align: center;
+    margin: 0px auto 0.5em;
+
+    
+}
+
+#challenge_start #challengeStartUpper .playerPhoto img,  #challenge_end #challengeEndUpper .playerPhoto img{
+    width:100%;
+    height:100%;
+    border-radius: 150px;
+    margin: 0px auto 0px;
+	-webkit-border-radius: 500px;
+	-moz-border-radius: 500px;
+    border: 3px solid #5f9ab3;
+}
+
+#challenge_start #challengeStartUpper .playerName {
+    text-align: center;
+    font-size: 0.6em;
+    font-family: 'Open Sans Semi Bold', sans-serif;
+    font-weight: bold;
+}
+
+#challenge_start #challengeStartUpper .playerCountry, #challenge_end #challengeEndUpper .playerCountry {
+    text-align: center;
+    font-size: 0.56em;
+    font-family: 'Open Sans Semi Bold', sans-serif;
+    font-weight: bold;
+    padding: 0.2em;
+    margin: 0.5% auto 0.6%;
+    font-style: normal;
+    color: #444;
+    text-transform: capitalize;
+    width:  100%;
+}
+
+#challenge_end #challengeEndUpper .playerCountry {
+    font-size: 0.6em !important;
+    margin: 0.1em auto 0.1em !important;
+}
+
+#challenge_start #challengeStartUpper .playerCountry img, #challenge_end #challengeEndUpper .playerCountry img {
+    padding-right: 0.5em;
+    margin-left: -0.5em;    
+}
+
+#challenge_end #challengeEndUpper .playerName {
+    text-align: center;
+    font-family: 'Open Sans Semi Bold', sans-serif;
+    font-weight: bold;
+    font-size: 0.6em;
+}
+
+#challenge_start #challengeStartUpper .playerRank {
+    text-align: center;
+    font-size: 0.5em;
+    font-family: 'Open Sans Semi Bold', sans-serif;
+    font-weight: bold;
+    padding: 0.2em;
+    margin: 0.6% auto 1%;
+    font-style: normal;
+    color: #666;
+    text-transform: capitalize;
+}
+
+#challenge_end #challengeEndUpper .playerRank {
+    text-align: center;
+    font-family: 'Open Sans Semi Bold', sans-serif;
+    font-weight: bold;
+    font-size: 0.5em;
+    padding: 0.2em;
+    margin: -0.1em auto 0.1em;
+    font-style: normal;
+    color: #666;
+    text-transform: capitalize;
+}
+
+#challenge_start #challengeStartUpper .playerRank.admin, #challenge_end #challengeEndUpper .playerRank.admin {
+    font-weight: bold;
+    color: #e50000;
+    text-transform: uppercase;
+}
+
+#challenge_start  #challengeStartUpperSpacer, #challenge_end  #challengeEndUpperSpacer {
+    width: 50px;
+    background-color: #ff0000;
+          
+}
+
+#challenge_start #challengeStartMiddle {
+    width:  100%;
+    margin:  10px auto 0px;
+    background-color:  #677e89;
+    color: #fff;   
+    padding: 3%; 
+}
+
+#challenge_end #challengeEndMiddle {
+    width:  100%;
+    margin:  10px auto 0px;
+    padding: 3%; 
+}
+
+#challenge_start #challengeStartMiddle .title, #challenge_end #challengeEndMiddle .title {
+    font-size: 1.0em;
+    font-weight: bold;
+    color: #fff;
+    text-shadow:  1px 1px 1px #444;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+#challenge_start #challengeStartMiddle .rule, #challenge_end #challengeEndMiddle .rule {
+    font-size: 0.72em;
+    font-weight: normal;
+    color: #fff;
+    text-shadow:  1px 1px 1px #444;
+    text-align: left;
+    padding-bottom: 2%;
+}
+
+#challenge_start #challengeStartLower, #challenge_end #challengeEndLower {
+    width:  100%;
+    margin: 20px auto 0%;
+    text-align: center;
+}
+
+#challenge_start #challengeStartLower .startMessage, #challenge_end #challengeEndLower .startMessage {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #fff;
+    text-shadow:  1px 1px 1px #444;
+}
+
+#challenge_start #challengeStartLower .startCounter, #challenge_end #challengeEndLower .startCounter {
+    font-size: 2.5em;
+    font-weight: bold;
+    color: #fff;
+    text-shadow:  1px 1px 1px #222;
+    margin-top: 2%;
+}
+
+
+/* CHALLENGE PLAY */
+#challenge_play {
+}
+
+#questionTitle {
+    width: 100%;
+    color: #233a47;
+    background-color: #fff;
+    font-weight: bold;
+    font-size: 0.9em;
+    text-align: center;
+    padding: 3% 0% 3% 0%;
+    border-bottom: 1px solid #ddd;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 60;
+}
+
+#questionWrapper {
+    max-width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+#questionWrapper #answer1 {
+    position: absolute;
+    top: 20px;
+    left:  20px;
+}
+
+#questionWrapper #answer2 {
+    position: absolute;
+    top: 20px;
+    right:  23px;
+}
+
+#questionWrapper #answer3 {
+    position: absolute;
+    bottom: 26px;
+    left:  20px;
+}
+
+#questionWrapper #answer4 {
+    position: absolute;
+    bottom: 26px;
+    right:  23px;
+}
+
+#questionWrapper #question {
+    height: 100px;
+    width: 100px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+#questionWrapper .answer {
+    height: 100px;
+    width: 100px;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+#questionWrapper .answerOverlay {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index:  0;
+    margin: 2px;
+    border-radius: 150px;
+	-webkit-border-radius: 500px;
+	-moz-border-radius: 500px;
+    display: none;
+    background: rgb(255, 255, 255); /* Fall-back for browsers that don't support rgba */
+    background: rgba(255, 255, 255, .6);
+}
+
+#questionWrapper .answerOverlay .symbol {
+    width:  100%;
+    height:  100%;
+    position: absolute;
+    text-align: center;
+    
+    font-size:  2.5em;
+    z-index:  1;
+    margin-top: 20%;
+    font-weight: bold;
+    text-shadow:  1px 1px 1px #000;
+}
+
+#questionWrapper .answerOverlay .symbol.correct {
+    color:  #00ff00;
+} 
+
+#questionWrapper .answerOverlay .symbol.bottom {
+    position: absolute;
+    top:  -12%;
+} 
+
+#questionWrapper .answerOverlay .symbol.wrong {
+    color:  #ff0000;
+} 
+
+#questionWrapper .answerOverlay.correct {
+    background: rgb(255, 255, 255); /* Fall-back for browsers that don't support rgba */
+    background: rgba(255, 255, 255, .6);
+}
+
+#questionWrapper .answerOverlay.wrong {
+    background: rgb(255, 255, 255); /* Fall-back for browsers that don't support rgba */
+    background: rgba(255, 255, 255, .6);
+}
+
+.ribbon {
+ font-size: 0.6em; !important;
+ /* This ribbon is based on a 16px font side and a 24px vertical rhythm. I've used em's to position each element for scalability. If you want to use a different font size you may have to play with the position of the ribbon elements */
+
+ width: 113%;
+    
+ position: relative;
+ background: #252525;
+ color: #fff;
+ text-align: center;
+ padding: 0.5em 0em 0.5em 0em; /* Adjust to suit */
+ margin: 0px auto 0px; /* Based on 24px vertical rhythm. 48px bottom margin - normally 24 but the ribbon 'graphics' take up 24px themselves so we double it. */
+ -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.ribbon.top {
+    position: absolute;
+    top: 0em;
+    left: -0.38em;
+}
+
+.ribbon.bottom {
+    position: absolute;
+    bottom: 0.1em;
+    left: -0.34em;
+}
+.ribbon:before, .ribbon:after {
+ content: "";
+ position: absolute;
+ display: block;
+ bottom: -0.6em;
+ border: 1.0em solid #19191a;
+ z-index: -1;
+}
+.ribbon:before {
+ left: -1.1em;
+ border-right-width: 0.85em;
+ border-left-color: transparent;
+}
+.ribbon:after {
+ right: -1.1em;
+ border-left-width: 0.85em;
+ border-right-color: transparent;
+}
+.ribbon .ribbon-content:before, .ribbon .ribbon-content:after {
+ content: "";
+ position: absolute;
+ display: block;
+ border-style: solid;
+ border-color: #020202 transparent transparent transparent;
+ bottom: -0.60em;
+}
+.ribbon .ribbon-content:before {
+ left: 0;
+ border-width: 0.7em 0 0 0.7em;
+}
+.ribbon .ribbon-content:after {
+ right: 0;
+ border-width: 0.7em 0.7em 0 0;
+}
+#questionWrapper .answer .answerText.top {
+    position: absolute;
+    top:  0px;
+}
+
+#questionWrapper .answer .answerText.bottom {
+    position: absolute;
+    bottom:  -4px;
+}
+
+#questionWrapper .answer img {
+    width: 100%;
+    height: auto;
+    border-radius: 150px;
+	-webkit-border-radius: 500px;
+	-moz-border-radius: 500px;
+    background-color: #5f9ab3;
+    padding: 2px;
+    -webkit-filter: brightness(1);
+    filter: brightness(1);
+}
+
+#questionWrapper .answer img:active {
+   -webkit-filter: brightness(0.7);
+    filter: brightness(0.7); 
+}
+
+#question {
+    
+    position: relative;
+    z-index: 50;
+}
+
+#loadingScreen {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    display:  block;
+    z-index: 100;
+    background: rgb(0, 0, 0); /* Fall-back for browsers that don't support rgba */
+    background: rgba(0, 0, 0, 1);
+}
+
+#loadingScreen .loadingMessage {
+    position: absolute;
+    bottom: 1em;
+    right: 1em;
+    text-align: right;
+    color: #fff;
+    font-size: 0.8em;
+}
+
+#sunburst {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 140%;
+    display:  block;
+    z-index: 1;
+    -webkit-animation:spin 12s linear infinite;
+    -moz-animation:spin 12s linear infinite;
+    animation:spin 12s linear infinite;
+    display: block;
+    
+}
+
+#sunburst img {
+    width: 100%;
+    height: 100%;
+    
+}
+
+#question img {
+    width: 100%;
+    height: 100%;
+    border-radius: 150px;
+	-webkit-border-radius: 500px;
+	-moz-border-radius: 500px;
+    background-color: #5f9ab3;
+    padding: 3px;
+}
+
+#question #hintOverlay {
+    width: 100%;
+    height: auto;
+    background: rgb(255, 255, 255); /* Fall-back for browsers that don't support rgba */
+    background: rgba(255, 255, 255, .8);
+    border-radius: 150px;
+	-webkit-border-radius: 500px;
+	-moz-border-radius: 500px;
+    position: absolute;
+    left:  3px;
+    top: 3px;
+    display: none;  /* CHANGE TO NONE */
+    z-index: 80;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    
+}
+
+
+#question #hintOverlay .hintTitle {
+    width:  100%;
+    text-align: center;
+    font-size: 1.3em;
+    text-decoration: underline;
+    margin-top: 10%;
+    color: #233a47;
+    font-weight: bold;
+}
+
+#question #hintOverlay .hintText {
+    width:  80%;
+    text-align: center;
+    font-size: 0.9em;
+    margin: 8% auto 0px;
+    color: #233a47;
+    font-weight: normal;
+    
+}
+
+#question #hintOverlay .hintText p {
+    font-weight: bold;
+    padding: 0px;
+    margin: 0px;
+}
+
+
+#question #hint {
+    width: 45px;
+    height:  45px;
+    position: absolute;
+    right:  0px;
+    top: 50%;
+    transform: translate(50%, -50%);
+    -webkit-transform: translate(50%, -50%);
+    z-index: 90;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-filter: brightness(1);
+    filter: brightness(1);
+}
+
+#question #hint:active {
+    -webkit-filter: brightness(0.7);
+    filter: brightness(0.7);
+}
+
+#question #hint.closed:active {
+    -webkit-filter: brightness(1);
+    filter: brightness(1);
+}
+
+#question #hint img {
+    width: 100%;
+    height: auto;
+    border-radius: 150px;
+	-webkit-border-radius: 500px;
+	-moz-border-radius: 500px;
+    background-color: #000;
+    padding: 2px;
+}
+
+#question #addedScore {
+    
+    position: absolute;
+    top: -10%;
+    left: 50%;
+    transform: translate(-50%,0%);
+    -webkit-transform: translate(-50%,0%);
+    text-align: center;
+    color: #fff;
+    font-size: 2.2em;
+    text-shadow:  1px 1px 1px #000;
+    display:  none;
+}
+
+#questionLower {
+    background-color: #dde8b1;
+    border-bottom: 4px solid #48570b;
+    width: 100%;
+    height: 1.25em;
+    position: absolute;
+    z-index: 60;
+    bottom: 0px;
+    margin-top: 0px;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+#questionLower #timerBar {
+    background-color: #84a32c;
+    width: 100%;
+    height: 1.25em;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+#questionLower #timerValue {
+    color:  #fff;
+    font-weight: bold;
+    font-size: 0.65em;
+    position: absolute;
+    left: 0.5em;
+	width: 100%;
+    top: 0.5em;
+    z-index: 10;
+}
+
+
+#questionTimeDeduction {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    font-size: 1.2em;
+    text-shadow:  1px 1px 1px #000;
+    top: -15%;
+    display: none;
+    z-index: 25;
+}
+
+#flash {
+    display: none;
+    position: absolute;
+    z-index: 61;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+}
+
+#moreInfo
+{
+    position: absolute;
+    width:  100%;
+    height:  100%;
+    top:  0px;
+    left:  0px;
+  
+    z-index:  65;
+}
+
+#moreInfo .blackout {
+    background: rgba(0, 0, 0, .8);
+    width:  100%;
+    height:  100%;
+}
+
+#moreInfo .wrapper {
+    width:  85%;
+    position: absolute;
+    height:  85%;
+    top:  50%;
+    left:  50%;
+    background-color:  #fff;
+    transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    
+}
+#moreInfo .wrapper .title {
+    width: 100%;
+    padding:  2% 0px 2% 0px;
+    background-color:  #ff0000;
+    border-bottom: 2px solid #b30303;
+    color:  #fff;
+    font-weight:  bold;
+    font-size: 0.7em;
+    text-shadow:  1px 1px 1px #000;
+    text-align: center;
+    font-family: 'Open Sans Semi Bold', sans-serif;
+}
+
+#moreInfo .wrapper .upper {
+    width:  100%;
+    padding-bottom: 40%;
+    position: relative;
+    overflow: hidden;
+    margin-top: 0px;
+}
+
+#moreInfo .wrapper .upper img {
+    width:  102%;
+    height:  auto;
+    position: absolute;
+    transform: translate(0%,-20%);
+    -webkit-transform: translate(0%,-20%);
+}
+
+#moreInfo .wrapper .menu {
+    width:  100%;
+    color:  #000;
+    padding: 2% 0px 2% 0px;
+    font-size:  0.5em;
+    text-align: center;
+    border-collapse: collapse;
+    margin-top:  1px;
+    font-weight:  bold;
+    border-bottom: 2px solid #233a47;
+    border-top: 1px solid #233a47;
+}
+
+#moreInfo .wrapper .menu td {
+    vertical-align: top;
+    width:  50%;
+    padding: 3% 0px 3% 0px;    
+}
+
+
+
+#moreInfo .wrapper .content {
+    background-color: #bbe5fa;
+    padding: 10px;
+    font-size: 0.55em;
+    text-align: justify;
+    overflow-y: scroll;
+    font-family: 'Open Sans Semi Bold', sans-serif;
+    line-height: 1.25em;
+}
+
+#moreInfo .wrapper .continue {
+    background-color: #84a32c;
+    padding: 10px;
+    font-size: 0.6em;
+    color: #fff;
+    font-weight: bold;
+    font-family: 'Open Sans Semi Bold', sans-serif;
+    text-shadow:  1px 1px 1px #000;
+    border-bottom: 2px solid #48570b;
+}
+
+
+#challengeEndLower {
+
+    width:  100%;
+    border-collapse: collapse;
+    background-color:  #84a32c;
+    color:  #ffffff;
+    position:  absolute;
+    bottom:  0px;
+    z-index: 10;
+    border-bottom:  5px solid #48570b;
+    font-family: 'Open Sans Semi Bold', sans-serif;
+    min-height: 10px;
+    font-size:  0.7em;
+    text-align: left !important;
+    padding: 4%;
+    
+}
+
+#credits {
+    width: 100%;
+    text-align: center !important;
+}
+
+.playerScore {
+    margin-top: 0.1em;
+    width: 100%;
+    text-align: center;
+}
+
+.playerScore .title {
+    
+    font-family: 'Open Sans Semi Bold', sans-serif;
+    font-size: 0.75em;
+    font-weight: bold;
+}
+
+.playerScore .value {
+    
+    font-family: 'Open Sans Semi Bold', sans-serif;
+    font-size: 0.9em;
+    margin-top: 0.1em;
+    font-weight: bold;
+    margin-bottom: 0.2em;
+}
+
+
+#challengeEndMiddle #challengeItems {
+    width: 94%;
+    height: 98%;
+    border: 2px solid #7cafc9;
+    color: #fff;
+    padding-bottom: 0.3em;
+    margin-top: -0.2em;
+}
+
+#challengeEndMiddle #challengeItems .title {
+    width: 100%;    
+}
+
+#challengeEndMiddle #challengeItems .title .align {
+    margin: -0.7em auto 0%;
+    background-color: #BBE5FA;
+    text-shadow: 1px 1px 1px #444;
+    width: 60%;
+    font-size: 0.7em;
+}
+#challengeEndMiddle #challengeItems .item {
+    width:  94%;
+    background-color: #fff;
+    margin: 0.1em auto 0.1em;    
+    overflow: hidden;
+    height: 1.5em;
+    box-shadow: 1px 1px 2px #666;
+    position: relative;
+}
+
+#challengeEndMiddle #challengeItems .item .image {
+    width: 10%;
+    position: absolute;
+    height: 100%;
+}
+
+#challengeEndMiddle #challengeItems .item .image img {
+    width: 100%;
+    height: 100%;
+    float: left;
+}
+
+#challengeEndMiddle #challengeItems .item .details {
+
+    color: #000;
+    font-size: 0.6em;
+    position: absolute;
+    left: 11%;
+    top: 0.2em;
+   
+} 
+
+#challengeEndMiddle #challengeItems .item .details .name {
+ font-size: 1.05em;
+ font-weight: bold;
+ color: #222;
+ margin-top: 0%;   
+}
+
+#challengeEndMiddle #challengeItems .item .details .country {
+    font-size: 0.85em;
+    margin-top: -0.12em;   
+    color: #555;
+}
+
+#challengeEndMiddle #challengeItems .item .rightWrong {
+
+    width: 10%;
+    background-color: #ccc;
+    height: 100%;
+    float: right;
+    position: absolute;
+    right: 0.1em;
+    z-index: 25;
+    top: 0;
+   
+} 
+
+#challengeEndMiddle #challengeItems .item .rightWrong img {
+    width: 100%;
+    height: 100%;
+    float: right;
+}
+
+#award .value {
+    
+    text-align: center;
+}
+.challengePlayersWrapper a {
+    text-decoration: none;
+}
+
+#dialogBadgeShare a {
+    text-decoration: none;
+}
+    
+#dialogBadgeShare .badgeShare a {
+    text-decoration: none;
+}
+    
+#dialogBadgeShare .badgeShare {
+    width: 50%;
+    font-size:  0.6em;
+    font-weight:  bold;
+    text-align: center;
+    color:  #fff;
+    margin:  0.5em auto 0.5em !important;
+    padding: 0.5em;
+    background-color: #2273a6;
+    border-top: 0px solid #fff;
+    border-bottom: 4px solid #0f4b64;
+    text-shadow: 1px 1px 2px #777;
+}
+    
+#dialogBadgeShare .badgeShare:active {
+    width: 50%;
+    font-weight:  bold;
+    text-align: center;
+    color:  #fff;
+    margin:  0.5em auto 0.5em;
+    padding: 0.25em;
+    background-color: #2273a6;
+    border-top: 3px solid #fff;
+    border-bottom: 1px solid #0f4b64;
+}
+
+
+#moreInfoShare {
+    padding: 2px;
+}
+
+#dialogInfoShare {
+}
+
+#dialogInfoShare a, #moreInfoShare a {
+    text-decoration: none;
+}
+    
+#dialogInfoShare .badgeShare a {
+    text-decoration: none;
+}
+    
+#dialogInfoShare .badgeShare {
+    width: 50%;
+    font-size:  0.6em;
+    font-weight:  bold;
+    text-align: center;
+    color:  #fff;
+    margin:  0% auto 0% !important;
+    padding: 0.5em;
+    background-color: #2273a6;
+    border-top: 0px solid #fff;
+    border-bottom: 4px solid #0f4b64;
+    text-shadow: 1px 1px 2px #777;
+}
+    
+#dialogInfoShare .badgeShare:active {
+    width: 50%;
+    font-weight:  bold;
+    text-align: center;
+    color:  #fff;
+    margin:  4% auto 5%;
+    padding: 0.25em;
+    background-color: #2273a6;
+    border-top: 3px solid #fff;
+    border-bottom: 1px solid #0f4b64;
+}
+
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+
+
+  
+#scrollInfo
+{
+    position: absolute;
+    width:  100%;
+    height:  100%;
+    top:  100%;
+    left:  0px;
+    display: none;
+    z-index:  65;
+}
+
+#scrollInfo  .title {
+    width: 100%;
+    padding:  1% 0px 2% 0px;
+    background-color:  #ff0000;
+    border-bottom: 2px solid #b30303;
+    color:  #fff;
+    font-weight:  bold;
+    font-size: 0.7em;
+    text-shadow:  1px 1px 1px #000;
+    text-align: center;
+    font-family: 'Open Sans Semi Bold', sans-serif;
+    height: 2.5%;
+}
+
+#scrollInfo  .upper {
+    width:  100%;
+    position: relative;
+    overflow: hidden;
+    margin-top: -1px;
+    height: 28%;
+    padding-bottom: 0%;
+}
+
+#scrollInfo  .upper img {
+    width:  102%;
+    height:  auto;
+    position: absolute;
+    transform: translate(0%,-20%);
+    -webkit-transform: translate(0%,-20%);
+}
+
+#scrollInfo  .menu {
+    width:  100%;
+    color:  #000;
+    padding: 1% 0px 2% 0px;
+    font-size:  0.5em;
+    text-align: center;
+    background-color: #ffffff;
+    border-collapse: collapse;
+    margin-top:  0px;
+    font-weight:  bold;
+    border-bottom: 2px solid #233a47;
+    border-top: 1px solid #233a47;
+    height: 2.5%;
+}
+
+#scrollInfo  .menu td {
+    vertical-align: top;
+    width:  50%;
+    padding: 2% 0px 2% 0px;    
+}
+
+
+
+#scrollInfo  .content {
+    background-color: #bbe5fa;
+    padding: 10px;
+    font-size: 0.55em;
+    text-align: justify;
+    overflow-y: scroll;
+    font-family: 'Open Sans Semi Bold', sans-serif;
+    line-height: 1.25em;
+    height:  50%;
+}
+    
+#scrollInfo  .buttonWrapper {
+        height:  11%;
+        background-color: #ffffff;
+    }
+    
+#scrollInfo  .buttonTable {
+        margin: 0px auto 0px;
+        width: 98%;
+    }
+    
+#scrollInfo  .buttonTable td {
+    vertical-align: top;
+    width: 50%;
+}
+    
+ #scrollInfo  .buttonTable .button {
+    width: 93%;
+    background-color: #bbb;
+    text-align: center;
+    font-size: 0.6em;
+    color: #fff;
+    height: 2.6em;
+    margin: 5% auto 0px;
+    border-bottom: 4px solid #888;
+}
+    
+#scrollInfo  .buttonTable .button a {
+        
+    color: #fff;
+    text-decoration:  none;
+}
+    
+#scrollInfo  .buttonTable .button img {
+        
+    height: 2.6em;
+    width: auto;
+}
+    
+#scrollInfo  .buttonTable .subtext {
+    text-align:  center;
+    text-decoration-line: underline;
+    color: #5d7733;
+    font-size: 0.5em;
+    margin-top: 3%;
+}
+    
+#scrollInfo  .buttonTable .subtext a {
+    color: #5d7733;
+}
+    
+    #scrollInfo  .buttonTable .button.europeana {
+    background-color: #92bb51;
+    border-bottom: 4px solid #5d7733;
+}
+    
+#scrollInfo  .buttonTable .button.share {
+    background-color: #2273a6;
+    border-bottom: 4px solid #0f4b64;
+}
+    
+#scrollInfo  .buttonTable .button.share div {
+    padding-top: 0.7em;
+}
+    
+    
+
+#scrollInfo  .continue {
+    background-color: #84a32c;
+    font-size: 0.6em;
+    color: #fff;
+    font-weight: bold;
+    height: 5%;
+    padding: 4px 0px 0px 0px;
+    bottom: 0px;
+    font-family: 'Open Sans Semi Bold', sans-serif;
+    text-shadow:  1px 1px 1px #000;
+    border-bottom: 2px solid #48570b;
+}
+
+ 
+#whatIs
+{
+    position: fixed;
+    width:  100%;
+    height:  100%;
+    top:  0px;
+    left:  0px;
+   display: none;
+    z-index:  65;
+}
+
+#whatIs .blackout {
+    background: rgba(0, 0, 0, .8);
+    width:  100%;
+    height:  100%;
+}
+
+#whatIs .wrapper {
+    width:  85%;
+    position: absolute;
+    top:  50%;
+    background-color: #fff;
+    left:  50%;
+    transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    padding: 0% 0% 5% 0%;
+    
+}
+
+#whatIs .wrapper p {
+    width:  90%;
+    height:  auto;
+    text-align: justify;
+    font-size: 0.7em;
+    font-family: 'Open Sans Semi Bold', sans-serif;
+    font-weight:  bold;
+    color: #000;
+    margin: 5% auto 0px;
+    line-height: 1.5em;
+}
+
+#whatIs .close {
+    width:  40%;
+    font-weight: bold;
+    color:  #fff;
+    font-size:  0.8em;
+    text-align: center;
+    /*border-top:  1px solid #005d83;*/
+    border-top:  1px solid #fafafa;
+    padding: 2% 0% 2% 0%;
+    background-color: #e50000;
+    margin: 5% auto 0px;
+    text-shadow: 1px 1px 1px #000;
+}
+
+
+#whatIs .wrapper .imgWrapper {
+   width: 100%;
+   text-align: center;
+}
+    
+#whatIs .wrapper p img {
+    width:  90%;
+    height:  auto;
+    text-align: justify;
+    font-size: 0.7em;
+    font-family: 'Open Sans Semi Bold', sans-serif;
+    color: #000;
+    margin: 5% auto 0px;
+}

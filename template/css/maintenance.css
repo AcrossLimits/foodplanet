@@ -1,0 +1,83 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #bbe5fa;
+    overflow: hidden;
+}
+
+#loginWrapper {
+    width:  100%;
+    overflow: hidden;
+}
+
+#logoWrapper{
+    background-color: #fff;
+    min-height: 30%;
+    text-align: center;
+    padding: 10% 0% 10% 0%;
+}
+
+#logoWrapper img {
+    width:  90%;
+    height:  auto;
+    
+}
+
+#messageWrapper {
+    position: relative;
+    width: 90%;
+    text-align: center;
+    font-family: 'Open Sans Semi Bold', sans-serif;
+    margin: 5.0em auto 0px;
+}
+
+
+#credits {
+    width:  100%;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+#credits td {
+    padding: 10px 5px 10px 5px;
+    width: 50%;
+}
+
+#credits td img {
+    width: 100%;
+    height: auto;
+}
+
+#credits td .europeana {
+    width: 80%;
+    height: auto;
+}
+
+@keyframes fadeIn { 
+  from { opacity: 0; } 
+}
+
+
+
+.animImage {
+    
+}
+
+#fork {
+    animation: fadeIn 1.5s infinite alternate;
+}
+
+#glass {
+    animation: fadeIn 1.5s infinite alternate;
+    animation-delay: -1s;
+
+}
+
+#knife {
+    animation: fadeIn 1.5s infinite alternate;
+    animation-delay: -1.5s;
+
+}

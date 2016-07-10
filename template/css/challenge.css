@@ -1,0 +1,410 @@
+body {
+    background-color: #bbe5fa;
+    margin:  0px;
+    padding:  0px;
+    overflow-x: hidden;
+}
+
+.challengeUpper {
+    background: #ffffff;
+    width:  100%;
+    text-align: center;
+    margin:  0px auto 10px;
+    padding-top:  3%;
+    color:  #1a495d;
+    font-size:  0.95em;
+    padding-bottom:  3%;
+}
+
+#challengeWrapper {
+    width:  100%;
+    position:  relative;
+}
+
+#challengeWrapper .option {
+    width: 28%;
+
+}
+
+#challengeWrapper .option img {
+    width:  80%;
+    height: auto;
+	border-radius: 150px;
+	-webkit-border-radius: 500px;
+	-moz-border-radius: 500px;
+    background-color: #5f9ab3;
+    position:  absolute;
+    left:  50%;
+    top:  50%;
+    padding: 2px;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    z-index:  10;
+}
+
+#challengeWrapper .option .mark {
+    width:  50%;
+    height: auto;
+    position:  absolute;
+    background-color: rgba(255, 255, 255, 0.00);
+    left:  50%;
+    top:  50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    z-index:  20;
+    display: none;
+}
+
+#challengeWrapper #Option1 {
+    position:  absolute;
+    top:  0;
+    left:  2%;
+    z-index: 25;
+}
+
+#challengeWrapper #Option2 {
+    position:  absolute;
+    top:  0;
+    right:  2%;
+    z-index: 25;
+}
+
+#challengeWrapper #Option3 {
+    position:  absolute;
+    bottom:  5%;
+    left:  2%;
+    z-index: 25;
+}
+
+#challengeWrapper #Option4 {
+    position:  absolute;
+    bottom:  5%;
+    right:  2%;
+    z-index: 25;
+}
+
+#challengeWrapper .option .ribbon-up {
+    width:  100%;
+    position:  absolute;
+    top: 10%;
+    z-index:  15;
+}
+
+#challengeWrapper .option .ribbon-tail-up {
+    width:  100%;
+    position:  absolute;
+    top: 10%;
+    z-index:  5;
+}
+
+#challengeWrapper .option .ribbon-down {
+    width:  100%;
+    position:  absolute;
+    bottom: 10%;
+    z-index:  15;
+}
+
+#challengeWrapper .option .ribbon-tail-down {
+    width:  100%;
+    position:  absolute;
+    bottom: 10%;
+    z-index:  5;
+}
+
+#challengeWrapper .option .ribbon-up h1, #challengeWrapper .option .ribbon-down h1 {
+    font-size: 0.5em !important;
+    width:  85%;    
+
+    background: #3e3e3f;
+    color: #fff;
+    text-align: center;
+    padding: 0.5em 0.2em; 
+    margin: 0 auto 0; 
+}
+
+#challengeWrapper .option .ribbon-tail-up h1, #challengeWrapper .option .ribbon-tail-down h1 {
+    font-size: 0.5em !important;
+    width:  85%;    
+    position: relative;
+    color: #fff;
+    text-align: center;
+    padding: 0.5em 0.2em; 
+    margin: 0 auto 0; 
+}
+
+#challengeWrapper .option .ribbon-tail-up h1:before, #challengeWrapper .option .ribbon-tail-up h1:after,#challengeWrapper .option .ribbon-tail-down h1:before, #challengeWrapper .option .ribbon-tail-down h1:after {
+ content: "";
+ position: absolute;
+ display: block;
+ bottom: -0.95em;
+ border: 1.0em solid #646b6f;
+ z-index: 5;
+}
+#challengeWrapper .option .ribbon-tail-up h1:before, #challengeWrapper .option .ribbon-tail-down h1:before {
+ left: -1.5em;
+ border-right-width: 1.5em;
+ border-left-color: transparent;
+}
+#challengeWrapper .option .ribbon-tail-up h1:after, #challengeWrapper .option .ribbon-tail-down h1:after {
+ right: -1.5em;
+ border-left-width: 1.5em;
+ border-right-color: transparent;
+}
+#challengeWrapper .option .ribbon-tail-up .ribbon-content:before, #challengeWrapper .option .ribbon-tail-up .ribbon-content:after, #challengeWrapper .option .ribbon-tail-down .ribbon-content:before, #challengeWrapper .option .ribbon-tail-down .ribbon-content:after {
+ content: "";
+ position: absolute;
+ display: block;
+ z-index: 7;
+ border-style: solid;
+ border-color: #1d1819 transparent transparent transparent;
+ bottom: -0.95em;
+}
+#challengeWrapper .option .ribbon-tail-up .ribbon-content:before, #challengeWrapper .option .ribbon-tail-down .ribbon-content:before {
+ left: 0;
+ border-width: 1em 0 0 1em;
+}
+#challengeWrapper .option .ribbon-tail-up .ribbon-content:after, #challengeWrapper .option .ribbon-tail-down .ribbon-content:after {
+ right: 0;
+ border-width: 1em 1em 0 0;
+}
+
+
+
+#challengeWrapper .question {
+    width:  66%;
+    position:  absolute;
+    left:  50%;
+    top:  46%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    z-index: 20;
+}
+
+#challengeWrapper .question img {
+    width:  92%;
+    height: auto;
+	border-radius: 150px;
+	-webkit-border-radius: 500px;
+	-moz-border-radius: 500px;
+    background-color: #5f9ab3;
+    position:  absolute;
+    left:  50%;
+    top:  50%;
+    padding: 4px;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    z-index:  10;
+}
+
+#challengeWrapper #QuestionWrong {
+    background-color: #430000;
+    padding: 0px;
+    display:  none;
+}
+
+#challengeWrapper #QuestionRight {
+    display:  none;
+    background-color: #336c20;
+    padding: 0px;
+}
+
+#challengeWrapper .afterQuestion {
+    width:  70%;
+    position:  absolute;
+    left:  50%;
+    top:  46%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+    display:  none;
+    z-index: 21;
+}
+
+#challengeWrapper .afterQuestion .upper {
+    font-size:  2.0em;
+    margin-top: 0.8em;
+    font-weight:  bold;
+}
+#challengeWrapper .afterQuestion .middle {
+    font-size:  1.2em;
+    margin-top: 0.2em;
+    font-weight:  normal;
+}
+
+#challengeWrapper .afterQuestion .lower {
+    font-size:  1.0em;
+    margin-top: 1.5em;
+    font-weight:  normal;
+}
+
+#opponentAnswered {
+    width:  100%;
+    position:  absolute;
+    bottom:  0;
+    z-index: -25;
+    min-height:  70%;
+    color:  #fff;
+    font-size: 0.8em;
+    font-weight:  bold;
+    text-shadow: 1px 1px 0 #444;
+    text-align: center;
+    
+}
+
+@-webkit-keyframes fadi {
+    0%   { opacity: 1; bottom: 0;}
+    20%  {opacity: 1;}
+    100% { opacity: 0; bottom: 25%;}
+}
+@-moz-keyframes fadi {
+    0%   { opacity: 1; bottom: 0;}
+    30%  {opacity: 1;}
+    100% { opacity: 0; bottom: 25%;}
+}
+
+
+#opponentAnswered .play {
+    opacity: 0;
+    -webkit-animation: fadi 2.5s 1;
+    -moz-animation: fadi 2.5s 1;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    width:  100%;
+}
+
+#opponentAnswered .pause {
+    opacity: 0;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    width:  100%;
+}
+
+
+.challengeLower {
+    width:  100%;
+    border-collapse: collapse;
+    color:  #ffffff;
+    position:  absolute;
+    bottom:  0;
+    z-index: 10;
+    border-bottom:  5px solid #48570b;
+    
+}
+
+.challengeLower #progress {
+     width: 100%;   
+     height:  30%;
+     position: absolute;
+     bottom:  0;
+     background-color: #c7d0b2;
+}
+
+.challengeLower #percent {
+
+    position: absolute;
+    bottom:  0;
+    font-weight:  bold;
+    font-size: 0.6em;   
+    left: 4%;
+    float:  left;
+    z-index:  5;
+}
+
+.challengeLower #percent div {
+    margin-top:  0.7em;
+    margin-bottom:  0.5em;
+}
+
+.challengeLower #bar, .challengeLower #moreinfo {
+     height: 1.4em;
+     width: 100%;
+     background-color: #84a32c;
+     float:  left;
+     position: absolute;
+     bottom:  0;
+}
+
+.challengeLower #moreinfo .infoWrapper {
+    position: absolute;
+    bottom:  0.3em;
+    font-size: 0.7em;   
+    text-decoration: none;
+    color:  #fff;
+    left: 0.3em;
+    float:  left;
+    z-index:  5;
+}
+
+.challengeLower #moreinfo .infoWrapper a {
+    text-decoration: none;
+    color:  #fff;
+}
+
+.challengeLower #opponentBar {
+     height: 1.4em;
+     width: 100%;
+     float:  left;
+     background-color: #678021;
+     position: absolute;
+     bottom:  0;
+}
+
+.challengeLower #barbg {
+     height: 1.4em;
+     width: 100%;
+     float:  left;
+     background-color: #c7d0b2;
+     position: absolute;
+     bottom:  0;
+}
+
+
+#challengeEndLower {
+    
+}
+
+
+
+
+@-webkit-keyframes fadeIn { from { opacity: 0; } to { opacity:1; } }
+@-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+
+
+
+.fade-in {
+	opacity:0;  /* make things invisible upon start */
+	-webkit-animation:fadeIn ease-in 1;  /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
+	-moz-animation:fadeIn ease-in 1;
+	animation:fadeIn ease-in 1;
+
+	-webkit-animation-fill-mode:forwards;  /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
+	-moz-animation-fill-mode:forwards;
+	animation-fill-mode:forwards;
+
+	-webkit-animation-duration:0.3s;
+	-moz-animation-duration:0.3s;
+	animation-duration:0.3s;
+}
+
+
+.fade-in.one {
+-webkit-animation-delay: 0.3s;
+-moz-animation-delay: 0.3s;
+animation-delay: 0.3s;
+}
+
+.fade-in.two {
+-webkit-animation-delay: 0.6s;
+-moz-animation-delay: 0.6s;
+animation-delay: 0.6s;
+}
+
+.fade-in.three {
+-webkit-animation-delay: 0.9s;
+-moz-animation-delay:  0.9s;
+animation-delay:  0.9s;
+}

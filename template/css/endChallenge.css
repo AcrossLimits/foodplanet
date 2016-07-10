@@ -1,0 +1,148 @@
+body {
+    background-color: #bbe5fa;
+    margin:  0px;
+    padding:  0px;    
+}
+
+#challengeUpper {
+    width:  100%;
+    background-color: #fff;
+    padding: 11% 0% 15% 0%;    
+    text-align:  center;
+}
+
+#challengeUpper .title {
+    font-size: 1.0em;
+}
+
+
+#challengeParticipants {
+    width:  100%;
+    text-align: center;
+    border-collapse: collapse;
+    margin:  -10% auto 0%;
+    
+}
+
+#challengeParticipants td {
+    width:  40%;
+    text-align: center;
+    border-collapse: collapse;
+    margin:  -10% auto 0%;
+    
+}
+
+#challengeParticipants .playerPhoto {
+    width:  40%;
+    text-align: center;
+    margin:  0% auto 0%;
+
+}
+
+#challengeParticipants .playerPhoto img {
+    width:  100%;
+    height: auto;
+	border-radius: 150px;
+    margin:  0% auto 0%;
+	-webkit-border-radius: 500px;
+	-moz-border-radius: 500px;
+    background-color: #5f9ab3;
+    padding: 2px;
+}
+
+#challengeParticipants .scoreTitle {
+    margin-top:  1%;
+    font-size:  0.6em;
+    color: #015b80;
+    font-weight: bold;
+}
+
+#challengeParticipants .scoreValue {
+    margin-top:  1%;
+    font-size:  1.3em;
+    color: #00354b;
+    font-weight: bold;
+}
+
+#award {
+    margin-top: 20%;
+    text-align: center;
+}
+
+#award .title {
+    font-size:  0.8em;
+    color: #00354b;
+    font-weight: bold;
+}
+
+#award .value {
+    margin-top: 1%;
+    font-size:  1.8em;
+    color: #00354b;
+    font-weight: bold;
+}
+
+#challengeLower {
+    width:  100%;
+    height:  1.8em;
+    background-color: #84a32c;
+    position: absolute;
+    bottom:  0;
+    z-index:  10;
+    left:  0;
+}
+
+#challengeLower .text {
+    color:  #fff;
+    font-size:  0.6em;
+    padding-top:  3.2%;
+    padding-left:  3%;
+    text-transform: uppercase;
+    font-weight:  bold;
+    
+}
+
+
+
+@-webkit-keyframes fadeIn { from { opacity: 0; } to { opacity:1; } }
+@-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+
+.fade-in {
+	opacity:0;  /* make things invisible upon start */
+	-webkit-animation:fadeIn ease-in 1;  /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
+	-moz-animation:fadeIn ease-in 1;
+	animation:fadeIn ease-in 1;
+
+	-webkit-animation-fill-mode:forwards;  /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
+	-moz-animation-fill-mode:forwards;
+	animation-fill-mode:forwards;
+
+	-webkit-animation-duration:0.3s;
+	-moz-animation-duration:0.3s;
+	animation-duration:0.3s;
+}
+
+.fade-in.one {
+-webkit-animation-delay: 0.3s;
+-moz-animation-delay: 0.3s;
+animation-delay: 0.3s;
+}
+
+.fade-in.two {
+-webkit-animation-delay: 0.6s;
+-moz-animation-delay: 0.6s;
+animation-delay: 0.6s;
+}
+
+.fade-in.three {
+-webkit-animation-delay: 0.9s;
+-moz-animation-delay:  0.9s;
+animation-delay:  0.9s;
+}
+
+.fade-in.four {
+-webkit-animation-delay: 0.9s;
+-moz-animation-delay:  0.9s;
+animation-delay:  1.5s;
+}

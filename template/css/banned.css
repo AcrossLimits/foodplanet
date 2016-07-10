@@ -1,0 +1,22 @@
+body {
+    background-color: #ee1d23;
+    margin:  0px;
+    padding:  0px;
+    
+}
+
+
+.bannedWrapper {
+    width:  100%;
+    position: absolute;
+    top: 50%;
+}
+
+.bannedWrapper .text {
+    text-shadow: 1px 1px 0 #444;
+    color:  #fff;
+    text-align: center;
+    font-size:  1.0em;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+}

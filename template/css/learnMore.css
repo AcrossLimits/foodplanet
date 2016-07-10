@@ -1,0 +1,79 @@
+body {
+    overflow-y:  hidden;
+    overflow-x: hidden;
+    margin:  0px;
+    padding:  0px;
+}
+
+#questionImage {
+    width: 100%;
+    overflow:  hidden;
+    height:  20px;
+}
+
+#questionImage img {
+    width:  100%;
+    transform: translateY(-30%);
+}
+
+.learnMenu {
+    width:  100%;
+    background-color: #ffffff;
+    text-transform: uppercase;
+    color: #002c43;
+    font-size: 0.7em;
+    font-weight: bold;
+    text-align: center;    
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+
+.learnMenu td a{
+    text-transform: uppercase;
+    color: #002c43;
+    text-decoration:  none;
+}
+
+.learnMenu td {
+    padding-top:  4%;
+    padding-bottom:  3%;
+    width:  50%;
+    border-bottom:  4px solid #ffffff;
+}
+
+.learnMenu .selected {
+    border-bottom:  4px solid #002c43;
+}
+
+#questionContent {
+
+    background-color: #bbe5fa;
+    padding:  2%;
+    overflow-y:  scroll;
+    
+}
+
+#questionContent p {
+    margin:  0px;
+    font-size:  0.7em;
+    color: #002c43;
+    font-weight:  bold;
+    line-height:  1.4em;
+}
+
+#learnLower {
+    width:  100%;
+    background-color: #84a32c;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 0.6em;
+    font-weight: bold;
+    line-height:  3.2em;  
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+
+#learnLower td a {
+    color:  #fff;
+    text-decoration: none;
+}

@@ -1,0 +1,165 @@
+body {
+    background-color: #bbe5fa;
+    margin:  0px;
+    padding:  0px;
+    
+}
+
+.challengeUpper {
+    width:  100%;
+    text-align: center;
+    font-size:  1.3em;
+    font-weight:  bold;
+    color:  #00354b;
+    margin-top:  5%;
+    margin-bottom:  5%;
+    
+}
+
+.playerWrapper {
+    width:  100%;
+    background-color: #fff;
+    border-collapse:  collapse;
+    text-align: center;
+    padding-top:  5%;
+    padding-bottom:  5%;
+    
+}
+
+
+
+.playerWrapper img {
+    width:  25%;
+	height: auto;
+	border-radius: 150px;
+	-webkit-border-radius: 500px;
+	-moz-border-radius: 500px;
+    background-color: #5f9ab3;
+    padding: 2px;
+    margin:  2% auto 2%;
+}
+
+.playerWrapper .name,  .playerWrapper .surname{
+    font-size:  0.7em;
+    font-weight: bold;
+    text-transform: capitalize;
+    color:  #00354b;
+    margin-bottom: 0%;
+}
+
+.playerWrapper .rank{
+    width: max-content;
+    text-align: center;
+    font-size:  0.6em;
+    font-weight: bold;
+    text-transform: uppercase;
+    color:  #00354b;
+    margin-top: 1%;
+    padding: 4px;
+}
+
+.playerWrapper .admin{
+    color:  #fff;
+    background-color: #e90808;
+}
+
+
+.challengePlayers .vs {
+    
+}
+
+.vs img {
+    width: 70%;
+    height: auto;
+    
+}
+
+.counterWrapper {
+    width:  100%;
+    margin:  12% auto 10%;
+}
+
+.counterBorder {
+    border: 5px solid #fff;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    width: 26%;
+    height:  auto;
+    margin:  0px auto 0px;
+}
+
+.counterCircle {
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    width: 100%;
+    height:  auto;
+    padding-top:  5%;
+    padding-bottom:  5%;
+    border: 4px solid #9a0c12;
+    background-color: #ee1d23;
+    position: relative;
+    font-weight:  bold;
+    vertical-align: middle;
+}
+
+.counterCircle .count {
+    font-size: 3.2em;
+    text-align: center;
+    color:  #fff;
+}
+
+
+
+
+.ribbon {
+   margin-top:  -10%;
+   }
+
+.ribbon h1 {
+ font-size: 0.8em !important;
+ /* This ribbon is based on a 16px font side and a 24px vertical rhythm. I've used em's to position each element for scalability. If you want to use a different font size you may have to play with the position of the ribbon elements */
+ width:  42%;
+    
+ position: relative;
+ background: #3e3e3f;
+ color: #fff;
+ text-align: center;
+ padding: 0.5em 0.2em; /* Adjust to suit */
+ margin: 1em auto 1em; /* Based on 24px vertical rhythm. 48px bottom margin - normally 24 but the ribbon 'graphics' take up 24px themselves so we double it. */
+}
+.ribbon h1:before, .ribbon h1:after {
+ content: "";
+ position: absolute;
+ display: block;
+ bottom: -0.95em;
+ border: 1.0em solid #646b6f;
+ z-index: -1;
+}
+.ribbon h1:before {
+ left: -1.5em;
+ border-right-width: 1.5em;
+ border-left-color: transparent;
+}
+.ribbon h1:after {
+ right: -1.5em;
+ border-left-width: 1.5em;
+ border-right-color: transparent;
+}
+.ribbon h1 .ribbon-content:before, .ribbon h1 .ribbon-content:after {
+ content: "";
+ position: absolute;
+ display: block;
+ border-style: solid;
+ border-color: #1d1819 transparent transparent transparent;
+ bottom: -0.95em;
+}
+.ribbon h1 .ribbon-content:before {
+ left: 0;
+ border-width: 1em 0 0 1em;
+}
+.ribbon h1 .ribbon-content:after {
+ right: 0;
+ border-width: 1em 1em 0 0;
+}

@@ -1,0 +1,90 @@
+#countrySelector {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    display:  none;
+    z-index:1001;
+    
+}
+
+#countrySelector .blackout {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    -moz-opacity: 0.9;
+    opacity:.90;
+    filter: alpha(opacity=90);
+}
+
+#countrySelector .wrapper {
+    position: absolute;
+    top: 5%;
+    left: 10%;
+    width: 80%;
+    height: 90%;
+    background-color: #fff;
+}
+
+#countrySelector .title {
+    width:  100%;
+    background-color: #ee1d23;
+    border-bottom:  3px solid #9a0c12;
+    color:  #fff;
+    text-align: center;
+    font-size:  0.8em;
+    padding: 3% 0% 3% 0%;
+    font-weight:  bold;
+    text-shadow: 1px 1px 0 #444;
+}
+
+
+
+#countrySelector .wrapper ul {
+    margin:  0px;
+    width:  100%;
+    background-color: #bbe5fa;
+    display:  block;
+    overflow-y: scroll;
+    list-style-type: none;
+    padding:  0%;
+}
+
+#countrySelector .wrapper ul li {
+    width:  100%;
+    background-color: #bbe5fa;
+    padding: 2%;
+    position:  relative;
+}
+
+#countrySelector .wrapper ul .even{
+    background-color: #8dd7f7;
+}
+
+#countrySelector .wrapper ul li .flag {
+    width:  9%;
+    height:  auto;
+    padding-top:  1%;
+}
+
+#countrySelector .wrapper ul li .flag img {
+    width:  100%;
+    height:  auto;
+    border-radius: 150px;
+	-webkit-border-radius: 500px;
+	-moz-border-radius: 500px;
+    background-color: #5f9ab3;
+    padding: 1px;
+    
+}
+
+#countrySelector .wrapper ul li .name {
+    position:  absolute;
+    left:  14%;
+    top:  32%;
+    font-size:  0.7em;
+    font-weight:  bold;
+    color: #00354b;
+}
+

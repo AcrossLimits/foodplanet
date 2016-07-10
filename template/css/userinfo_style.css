@@ -1,0 +1,97 @@
+#page_userinfo {
+    position: absolute;
+    width: 100%;
+}
+
+#page_userinfo .upper {
+    width: 100%;
+    text-align: center;
+    background-color:  #fff;
+    padding: 2.2em 0em 2.0em 0em;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+#page_userinfo .welcome {
+    font-size: 1.2em;
+}
+
+#page_userinfo .before {
+    font-size: 0.8em;
+    margin-top: 0.3em;
+    color: #555;
+}
+
+#page_userinfo .title {
+    font-size: 0.8em;
+    color: #222;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+#page_userinfo .country {
+    margin-top: 1.0em;
+    width: 100%;
+    text-align: center;
+    padding: 1.2em 0em 1.2em 0em;
+}
+
+#page_userinfo .country select {
+    padding: 0.4em;
+    margin-top: 1.0em;
+    width:  48%;
+}
+
+#page_userinfo .dob {
+   
+    text-align: center;
+    margin: 0.7em auto 0.0em;
+}
+
+#page_userinfo .dobtable {
+     border-collapse: collapse;
+     margin: 0.2em auto 0.0em;
+}
+
+#page_userinfo .dobtable select {
+    padding: 0.4em;
+    margin-top: 0.3em;
+    width:  100%;
+}
+
+#page_userinfo .button {
+    margin: 1.5em auto 0.5em;
+    background-color: #84a32c;
+    border-bottom: 4px solid #48570b;
+    color:  #fff;
+    font-size:  1.2em;
+    width:  40%;
+    text-align:  center;
+    padding: 0.3em;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+#page_userinfo .button:active {
+    margin: 1.5em auto 0.5em;
+    background-color: #84a32c;
+    border-top: 2px solid #bbe5fa;
+    border-bottom: 2px solid #48570b;
+    color:  #fff;
+    font-size:  1.2em;
+    width:  40%;
+    text-align:  center;
+    padding: 0.3em;
+}

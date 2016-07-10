@@ -1,0 +1,64 @@
+#dialogAwayWins {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    display:  none;
+    z-index:1001;
+    
+}
+
+#dialogAwayWins .blackout {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    -moz-opacity: 0.9;
+    opacity:.90;
+    filter: alpha(opacity=90);
+}
+
+#dialogAwayWins .wrapper {
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    width: 69%;
+    padding: 2%;
+    background-color: #fff;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+}
+#dialogAwayWins .wrapper table {
+    width:  100%;
+    border-collapse: collapse;
+}
+
+#dialogAwayWins .wrapper table .icon {
+    width:  30%;
+}
+
+#dialogAwayWins .wrapper table img {
+    width:  100%;
+    height:  auto;
+}
+
+#dialogAwayWins .wrapper table p {
+    font-size:  0.6em;
+    font-weight:  bold;
+    padding-top:  2%;
+}
+
+#dialogAwayWins .wrapper table span {
+    color: #01354b;
+}
+
+#dialogAwayWins .wrapper .dismiss {
+    width:  100%;
+    font-weight: bold;
+    color:  #888;
+    font-size:  0.6em;
+    text-align: center;
+    border-top:  1px solid #fafafa;
+    padding-top: 3%;
+}
+

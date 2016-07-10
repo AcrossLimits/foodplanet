@@ -1,0 +1,233 @@
+body {
+    background-color: #bbe5fa;
+    overflow-y: hidden;
+}
+
+#pageWrapper {
+    height:  100%;
+}
+#uploadImage {
+    width: 40%;
+    margin:  7% auto 7%;
+}
+
+#uploadImage img {
+    width:  100%;
+    height: auto;
+	border-radius: 150px;
+	-webkit-border-radius: 500px;
+	-moz-border-radius: 500px;
+    background-color: #5f9ab3;
+    padding: 2px;
+    z-index:  10;
+    cursor: pointer;
+}
+
+#uploadImage #files {
+   width:  100%;
+    height: 0px;
+	border-radius: 150px;
+	-webkit-border-radius: 500px;
+	-moz-border-radius: 500px;
+    
+    z-index:  10;
+    cursor: pointer; 
+}
+
+#files canvas {
+    width:  100%;
+    transform: translate(0%,-104%);
+    -webkit-transform: translate(0%,-104%);
+    border-radius: 150px;
+	-webkit-border-radius: 500px;
+	-moz-border-radius: 500px;
+    border:  2px solid #5f9ab3;
+}
+
+#uploadImage input {
+    position: absolute;
+    opacity: 0;
+    transform:  translate(-0%,-110%);
+    -webkit-transform:  translate(-0%,-110%);
+    width:  40%;
+    height:  30%;
+    cursor: pointer;
+    
+}
+
+#entries {
+    width:  80%;
+    margin:  0% auto 0%;
+}
+
+.entryWrapper {
+    width:  100%;
+    height: 2.1em;
+    background-color: #fff;
+    border-bottom:  3px solid #5f9ab3;
+    margin-bottom: 6%;
+}
+
+.entryWrapper p {
+    color: #a0c3d2;
+    width:  100%;
+    height:  100%;
+    padding-left:  4%;
+    padding-right:  4%;
+    padding-top: 4%;
+    font-size:  0.65em;
+    font-weight:  normal;
+    font-weight:  bold;
+}
+
+#whereQuestion, #ingredientQuestion {
+    display:  block;
+}
+
+#whereAnswer {
+    margin:  0px;
+    width:  100%;
+    display:  none;
+    list-style-type: none;
+    padding:  0%;
+}
+
+#ingredientAnswer {
+    display: none;
+    color:  #3b6374;
+}
+
+#whereAnswer li {
+    width:  100%;
+    padding: 4%;
+    position:  relative;
+}
+
+#whereAnswer li .flag {
+    width:  8%;
+    height:  auto;
+    margin-top: -1%;
+}
+
+#whereAnswer li .flag img {
+    width:  100%;
+    height:  auto;
+    border-radius: 150px;
+	-webkit-border-radius: 500px;
+	-moz-border-radius: 500px;
+    background-color: #5f9ab3;
+    padding: 1px;
+    
+}
+
+
+#whereAnswer li .name {
+    left:  13%;
+    top:  29%;
+    font-size:  0.65em;
+    font-weight:  bold;
+    color: #3b6374;
+    position:  absolute;
+    text-transform: capitalize;
+}
+
+.entryWrapper input{
+    border: 0px solid #000;
+    width:  93%;
+    height:  97%;
+    padding-left:  4%;
+    padding-right:  3%;
+    font-size:  0.65em;
+    color:  #3b6374;
+    font-weight:  bold;
+}
+
+#uploadLower {
+    width:  100%;
+    height:  1.8em;
+    background-color: #84a32c;
+    position: absolute;
+    bottom:  0;
+    z-index: 10;
+    left:  0;
+}
+
+#uploadLower .text {
+    color:  #fff;
+    font-size:  0.6em;
+    padding-top:  3.2%;
+    padding-left:  3%;
+    text-transform: uppercase;
+    font-weight:  bold;
+    
+}
+
+#uploadLower input {
+    opacity: 0;
+    width:  100%;
+    height:  100%;
+    cursor:  pointer;
+    position: absolute;
+    
+    bottom:  0;
+    left:  0;
+}
+
+
+
+@-webkit-keyframes fadeIn { from { opacity: 0; } to { opacity:1; } }
+@-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+
+
+
+.fade-in {
+	opacity:0;  /* make things invisible upon start */
+	-webkit-animation:fadeIn ease-in 1;  /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
+	-moz-animation:fadeIn ease-in 1;
+	animation:fadeIn ease-in 1;
+
+	-webkit-animation-fill-mode:forwards;  /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
+	-moz-animation-fill-mode:forwards;
+	animation-fill-mode:forwards;
+
+	-webkit-animation-duration:0.3s;
+	-moz-animation-duration:0.3s;
+	animation-duration:0.3s;
+}
+
+
+.fade-in.one {
+-webkit-animation-delay: 0.3s;
+-moz-animation-delay: 0.3s;
+animation-delay: 0.3s;
+}
+
+.fade-in.two {
+-webkit-animation-delay: 0.6s;
+-moz-animation-delay: 0.6s;
+animation-delay: 0.6s;
+}
+
+.fade-in.three {
+-webkit-animation-delay: 0.9s;
+-moz-animation-delay:  0.9s;
+animation-delay:  0.9s;
+}
+
+
+::-webkit-input-placeholder {
+   color: #a0c3d2;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: a0c3d2;  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: a0c3d2;  
+}
+
+:-ms-input-placeholder {  
+   color: a0c3d2;  
+}

@@ -1,0 +1,99 @@
+body {
+    background-color: #bbe5fa;
+    overflow-y: hidden;
+}
+
+#pageWrapper {
+    height:  100%;
+    width:  100%;
+    text-align: center;
+}
+
+#uploadImage {
+    margin:  28% auto 0%;
+    width:  30%;
+}
+
+#uploadImage img {
+    width:  100%;
+    height:  auto;
+}
+
+.upper {
+    margin:  3% auto 0px;
+    font-size:  1.55em;
+    text-align:  center;
+    color:  #fff;
+    font-weight:  bold;
+    text-shadow: 1px 1px 1px #666;
+}
+
+.middle {
+    margin:  2% auto 0px;
+    font-size:  0.75em;
+    font-weight:  bold;
+    text-align:  center;
+    color:  #fff;
+    text-shadow: 1px 1px 1px #666;
+}
+
+
+#uploadLower {
+    width:  100%;
+    height:  1.8em;
+    background-color: #84a32c;
+    position: absolute;
+    bottom:  0;
+    z-index:  10;
+    left:  0;
+}
+
+#uploadLower .text {
+    color:  #fff;
+    font-size:  0.6em;
+    padding-top:  3.2%;
+    padding-left:  3%;
+    text-transform: uppercase;
+    font-weight:  bold;
+    
+}
+
+@-webkit-keyframes fadeIn { from { opacity: 0; } to { opacity:1; } }
+@-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+
+
+
+.fade-in {
+	opacity:0;  /* make things invisible upon start */
+	-webkit-animation:fadeIn ease-in 1;  /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
+	-moz-animation:fadeIn ease-in 1;
+	animation:fadeIn ease-in 1;
+
+	-webkit-animation-fill-mode:forwards;  /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
+	-moz-animation-fill-mode:forwards;
+	animation-fill-mode:forwards;
+
+	-webkit-animation-duration:0.3s;
+	-moz-animation-duration:0.3s;
+	animation-duration:0.3s;
+}
+
+
+.fade-in.one {
+-webkit-animation-delay: 0.3s;
+-moz-animation-delay: 0.3s;
+animation-delay: 0.3s;
+}
+
+.fade-in.two {
+-webkit-animation-delay: 0.6s;
+-moz-animation-delay: 0.6s;
+animation-delay: 0.6s;
+}
+
+.fade-in.three {
+-webkit-animation-delay: 0.9s;
+-moz-animation-delay:  0.9s;
+animation-delay:  0.9s;
+}
