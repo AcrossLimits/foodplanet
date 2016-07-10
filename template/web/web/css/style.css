@@ -1,0 +1,16 @@
+body {
+    background-color: #fff;
+    padding: 0px;
+    margin: 0px;
+}
+
+div {
+    width: 100%;
+    text-align: center;
+}
+
+iframe {
+    margin: 20px auto 0px;
+    height: 500px;
+    border: 1px solid #ccc;
+}

@@ -1,0 +1,148 @@
+{
+	"_login": {
+		"_facebook": "Login met Facebook",
+		"_guest": "Speel als gast",
+		"_logging_in": "Inloggen",
+		"_banned": "Je account is geblokkeerd"
+	},
+
+	"_home": {
+		"_greeting": "Hallo XXXX",
+		"_welcome": "Welkom op Food Planet",
+		"_welcome_left": "Hallo ",
+                "_welcome_right": "! Welkom terug!",
+		"_countryselect": "Selecteer je land",
+		"_dobselect": "Please enter your date of birth",
+		"_jan": "Januari",
+		"_feb": "Februari",
+		"_mar": "Maart",
+		"_apr": "April",
+		"_may": "Mei",
+		"_jun": "Juni",
+		"_jul": "Juli",
+		"_aug": "Augustus",
+		"_sep": "September",
+		"_oct": "Oktober",
+		"_nov": "November",
+		"_dec": "December",
+		"_start": "Start",
+		"_sendmeal": "Stuur een gerecht naar cyberspace",
+		"_uploadphotos": "Laad foto's op van je gerechten",
+		"_play": "Speel",
+		"_badges": "Badges"
+	},
+
+	"_navigation": {
+		"_home": "Home",
+		"_leaderboard": "Leaderboard",
+		"_about": "Over",
+		"_logout": "Uitloggen",
+		"_verify": "Verifieer geüploade gerechten",
+                "_catalog": "Catalogus",
+        "_europeana": "Ga naar Europeana"
+	},
+
+	"_badges": {
+		"_geographical": "Geografisch",
+		"_challenges": "Uitdagingen",
+		"_uploads": "Uploads",
+		"_tounlock": "Om deze badge vrij te spelen",
+		"_updatetitle": "Update titel",
+		"_share": "Delen",
+		"_close": "Sluiten",
+		"_unlock_euro_geographical": "Speel elke Europese Geografische badge vrij",
+		"_unlock_geographical": "Speel elke Geografische badge vrij",
+		"_unlock_scandinavia": "Speel tegen 5 mensen uit Scandinavië",
+		"_unlock_western": "Speel tegen 5 mensen uit West-Europa",
+		"_unlock_central": "Speel tegen 5 mensen uit Centraal-Europa",
+		"_unlock_eastern": "Speel tegen 5 mensen uit da Balkan",
+		"_unlock_balkans": "Speel tegen 5 mensen uit de Mediterranee",
+		"_unlock_mediterranean": "Speel tegen 5 mensen uit de Mediterranee",
+		"_unlock_asia": "Speel tegen 5 mensen uit Azie",
+		"_unlock_africa": "Speel tegen 5 mensen uit Afrika",
+		"_unlock_north_america": "Speel tegen 5 mensen uit Noord- / Centraal-Amerika ",
+		"_unlock_latin_america": "Speel tegen 5 mensen uit Latijns-Amerika",
+		"_unlock_middle_east": "Speel tegen 5 mensen uit het Midden-Oosten",
+		"_unlock_oceania": "Speel tegen 5 mensen uit Oceanie",
+		"_unlock_1Challenge": "Win 1 uitdaging",
+		"_unlock_5Challenges": "Win 5 uitdagingen",
+		"_unlock_10Challenges": "Win 10 uitdagingen",
+		"_unlock_25Challenges": "Win 25 uitdagingen",
+		"_unlock_1share": "Deel 1 gerecht",
+		"_unlock_5shares": "Deel 5 gerehten",
+		"_unlock_10shares": "Deel 10 gerecthen",
+		"_unlock_1upload": "Laad 1 gerecht op",
+		"_unlock_2upload": " Laad 2 gerecthen op",
+		"_unlock_5upload": "Laad 5 gerecthen op",
+		"_unlock_10upload": "Laad 10 gerechten op",
+		"_unlock_25upload": "Laad 25 gerecthen op"
+
+
+	},
+
+	"_leaderboard": {
+		"_points": "Verdiendne punten",
+		"_challenges": "Uitdagingen gewonnen",
+		"_week": "Deze week",
+		"_allTime": "Aller tijden"
+	},
+
+
+	"_about": {
+		"_upper": "Food Planet werd mogelijk gemaakt door het Europese Food and Drink project, gefinancieerd door de Europese Commissie onder het ICT Beleid Ondersteuning Programma als onderdeel van de Competitiviteits en Innovatie Kader Programma.",
+		"_lower": "Het doel van het spel is om mensen van over de hele wereld uit te dagen, en interessante weetjes te ontdekken over gerechten, ingrediënten en kookgerei wereldwijd.",
+		"_followup": "Met dit spel kan je ook je eigen beelden van gerechten, ingrediënten of kookgerei delen en anderen laten raden van welk land het afkomstig is",
+		"_letsstart": "Dus begin maar te gissen en kom te weten waar ter wereld deze items vandaan komen!"
+	},
+
+	"_upload": {
+		"_upload": "Laad een foto op",
+		"_whatdoyoucall": "Hoe noem je dit?",
+		"_wherefrom": "Waar komt dit vandaan",
+		"_enterdescription": "Vuul een beschrijving in",
+		"_cyberspace": "Stuur nar cyberspace",
+		"_success": "Opladen succesvol!",
+		"_thanks": "Bedankt!",
+		"_sentforverification": "Je indiening is doorgestuurd ter verificatie",
+		"_failed": "Opladen mislukt",
+		"_tryagain": "Probeer opnieuw",
+		"_return": "Terug naar home"
+	},
+
+	"_verify": {
+		"_uploadedby": "Opgeladen door:",
+		"_location": "Locatie:",
+		"_description": "Beschrijving:",
+		"_accept": "Accepteer",
+		"_accept18": "Accepteer 18+",
+		"_reject": "Afwijzen",
+		"_banUser": "Blokker gebuiker",
+		"_nosubmissions": "Geen indiening"
+	},
+
+	"_challenge": {
+		"_start": "Begin uitdaging",
+		"_howto": "Hoe te spelen",
+		"_challengeStart": "Uitdaging begint over",
+		"_selectWhere": "Selecteer waar je denkt dat het eten vandaan komt",
+		"_fasterAnswer": "Hoe sneller je antwoordt hoe meer punten je krijgt",
+		"_somequestions": "Sommige vragen kunnen meer dan 1 antwoord heben",
+		"_questionof": "Vrag 1/5",
+		"_ouch": "Auch!",
+		"_outoftime": "Geen tijd meer",
+		"_taptomoveon": "Tik om verder te gaan!",
+		"_whereonearth": "Waar ter wereld komt dit vandaan",
+		"_5points": "5 punten",
+		"_wronganswer": "Tik omt verder te gaan",
+		"_whatis": "Wat is XXXX?",
+		"_yes": "Ja!!",
+		"_rightanswer": "Goed antwoord",
+		"_continue": "Doorgaan",
+		"_loading": "Laden...",
+		"_end": "Eine van de uitdaging",
+		"_win": "Je hebt gewonnen",
+		"_lose": "Je hebt verloren",
+		"_tie": "Het is een gelijkspel!",
+		"_points": "Jouw punten"
+	}
+}

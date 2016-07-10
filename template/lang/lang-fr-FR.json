@@ -1,0 +1,148 @@
+{
+	"_login": {
+		"_facebook": "Se connecter avec Facebook",
+		"_guest": "Jouer en tant qu'invité",
+		"_logging_in": "Se connecter",
+		"_banned": "Votre compte a été suspendu",
+	},
+	
+	"_home": {
+		"_greeting": "Bonjour XXXX",
+		"_welcome": "Bienvenue a Food Planet",
+		"_welcome_left": "Salut ",
+		"_welcome_right": "! Merci d'être de retour",
+		"_countryselect": "S'il vous plait, sélectionnez votre pays",
+		"_dobselect": "S'il vous plait, entrez votre date d'anniversaire",
+		"_jan": "Janvier",
+		"_feb": "Février",
+		"_mar": "Mars",
+		"_apr": "Avril",
+		"_may": "Mai",
+		"_jun": "Juin",
+		"_jul": "Juillet",
+		"_aug": "Août",
+		"_sep": "Septembre",
+		"_oct": "Octobre",
+		"_nov": "Novembre",
+		"_dec": "Décembre",
+		"_start": "Commencez",
+		"_sendmeal": "Envoyez un repas au cyber-espace",
+		"_uploadphotos": "Téléchargez des photos de vos plats",
+		"_play": "Jouez",
+		"_badges": "Badge"
+	},
+		
+	"_navigation": {
+		"_home": "Menu",
+		"_leaderboard": "Classification",
+		"_about": "À propos de",
+		"_logout": "Se déconnecter",
+		"_verify": "Vérifier les repas téléchargés",
+        "_catalog": "Catalogue",
+        "_europeana": "Aller à Europeana"
+	},
+	
+	"_badges": {
+		"_geographical": "Géographique",
+		"_challenges": "Défis",
+		"_uploads": "Télécharger",
+		"_tounlock": "Pour déverrouiller ce badge",
+		"_updatetitle": "Mise à jour du titre",
+		"_share": "Partager",
+		"_close": "Fermer",
+		"_unlock_euro_geographical": "Déverrouillez chaque badge européen géographique",
+		"_unlock_geographical": "Déverrouillez chaque badge géographique",
+		"_unlock_scandinavia": "Jouez contre 5 personnes de Scandinavie",
+		"_unlock_western": "Jouez contre 5 personnes de l'Europe de l'Ouest",
+		"_unlock_central": "Jouez contre 5 personnes de l'Europe centrale",
+		"_unlock_eastern": "Jouez contre 5 personnes de l'Europe de l'Est",
+		"_unlock_balkans": "Jouez contre 5 personnes des Balkans",
+		"_unlock_mediterranean": "Jouez contre 5 personnes de la Méditerranée",
+		"_unlock_asia": "Jouez contre 5 personnes de l'Asie",
+		"_unlock_africa": "Jouez contre 5 personnes de l'Afrique",
+		"_unlock_north_america": "Jouez contre 5 personnes de l'Amérique du Nord /Centre",
+		"_unlock_latin_america": "Jouez contre 5 personnes d'Amérique Latine",
+		"_unlock_middle_east": "Jouez contre 5 personnes du Moyen-Orient",
+		"_unlock_oceania": "Jouez contre 5 personnes de l'Océanie",
+		"_unlock_1Challenge": "Gagnez 1 défi",
+		"_unlock_5Challenges": "Gagnez 5 défis",
+		"_unlock_10Challenges": "Gagnez 10 défis",
+		"_unlock_25Challenges": "Gagnez 25 défis",
+		"_unlock_1share": "Partagez 1 repas",
+		"_unlock_5shares": "Partagez 5 repas",
+		"_unlock_10shares": "Partagez 10 repas",
+		"_unlock_1upload": "Télécharger 1 repas",
+		"_unlock_2upload": "Téléchargez 2 repas",
+		"_unlock_5upload": "Téléchargez 5 repas",
+		"_unlock_10upload": "Téléchargez 10 repas",
+		"_unlock_25upload": "Télécharger 25 repas"
+		
+		
+	},
+	
+    "_leaderboard": {
+		"_points": "Points gagnés",
+		"_challenges": "Défi gagné",
+		"_week": "Cette semaine",
+		"_allTime": "Tout le temps"
+    },
+	
+	
+	"_about": {
+		"_upper": "Food planet a été rendu possible grâce au projet de Food & Drinks d’Europeana, qui est financé par la Commission européenne dans le cadre du soutien à la politique des TIC du programme de compétitivité et d'innovation.",
+		"_lower": "Le but du jeu est de défier d'autres personnes à travers la planète, tout en apprenant des faits intéressants sur la vaisselle, les repas, les ingrédients, les outils et ustensiles qui se trouvent dans le monde entier.",
+		"_followup": "Avec ce jeu, on peut aussi partager nos propres images et laisser les autres deviner de quel pays elles sont originaires.",
+		"_letsstart": "Alors commencez à deviner et trouver d'où proviennent les objets de ce site!"
+	},
+	
+	"_upload": {
+		"_upload": "Téléchargez une photo",
+		"_whatdoyoucall": "Comment appelez-vous ceci ?",
+		"_wherefrom": "Quelle est sa provenance ?",
+		"_enterdescription": "Veuillez le/la décrire",
+		"_cyberspace": "Envoyez à cyber-espace",
+		"_success": "Téléchargement réussi!",
+		"_thanks": "Merci!",
+		"_sentforverification": "Votre demande a été envoyée pour vérification",
+		"_failed": "Téléchargement échoué",
+		"_tryagain": "S'il vous plait, réessayez plus tard",
+		"_return": "Retournez au menu"
+	}
+	
+	"_verify": {
+		"_uploadedby": "Télécharger par:",
+		"_location" : "Emplacement:",
+		"_description" : "Description:",
+		"_accept": "Accepté",
+		"_accept18" : "Accepté 18+",
+		"_reject": "Accepté 18+",
+		"_banUser": "Utilisateur suspendu",
+		"_nosubmissions": "Aucune soumission"
+	}
+	
+	"_challenge": {
+		"_start": "Commencer le défi",
+		"_howto": "Comment jouer ?",
+		"_challengeStart" : "Le défi commence dans",
+		"_selectWhere": "Sélectionnez d’où vous pensez que la nourriture provient",
+		"_fasterAnswer": "Plus votre réponse est rapide et plus vous obtenez des points",
+		"_somequestions": "Certaines questions peuvent avoir plusieurs réponses",
+		"_questionof": "Question 1/5",
+		"_ouch": "Aie!",
+		"_outoftime": "Temps écoulé",
+		"_taptomoveon": "Appuyez pour passer",
+		"_whereonearth": "Quelle est la provenance ?",
+		"_5points": "5 points",
+		"_wronganswer": "Mauvaise réponse",
+		"_whatis": "Qu'est-ce que XXXX?",
+		"_yes": "Oui!!",
+		"_rightanswer": "Bonne réponse",
+		"_continue": "Continuez",
+		"_loading": "Chargement...",
+		"_end": "Fin du défi",
+		"_win": "Vous gagnez",
+		"_lose": "Vous perdez",
+		"_tie": "Egalité!",
+		"_points": "Vos points"
+	}
+}

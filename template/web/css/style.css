@@ -1,0 +1,20 @@
+body {
+    background-color: #fff;
+    padding: 0px;
+    margin: 0px;
+}
+
+div {
+    position:fixed !important;
+    position:absolute;
+    top:0;
+    right:0;
+    bottom:0;
+    left:0;
+    text-align: center;
+}
+
+iframe {
+    margin: 0px auto 0px;
+    border: 1px solid #ccc;
+}

@@ -1,0 +1,38 @@
+#formtitle {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-family: Verdana;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#uploadform {
+    width: 300px;
+    border: 1px solid #000;
+    margin: 20px auto 20px;
+    padding: 25px;
+    text-align: center;
+    margin: 0px auto 0px;
+}
+
+.title {
+    margin-bottom: 2px;
+    font-family: Verdana;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.message {
+    margin-bottom: 2px;
+    font-family: Verdana;
+    font-size: 12px;
+}
+
+input, textarea, select {
+    margin-bottom: 15px;
+}
+
+.button {
+    margin-top: 10px;
+}

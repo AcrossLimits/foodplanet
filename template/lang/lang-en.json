@@ -1,0 +1,148 @@
+{
+	"_login": {
+		"_facebook": "Login with Facebook",
+		"_guest": "Play as a Guest",
+		"_logging_in": "Logging In",
+		"_banned": "Your account has been banned",
+	},
+	
+	"_home": {
+		"_greeting": "Hi XXXX",
+		"_welcome": "Welcome to Food Planet",
+		"_welcome_left": "Hey",
+        "_welcome_right": "! Welcome Back",
+		"_countryselect": "Please select your country",
+		"_dobselect": "Please enter your date of birth",
+		"_jan": "January",
+		"_feb": "February",
+		"_mar": "March",
+		"_apr": "April",
+		"_may": "May",
+		"_jun": "June",
+		"_jul": "July",
+		"_aug": "August",
+		"_sep": "September",
+		"_oct": "October",
+		"_nov": "November",
+		"_dec": "December",
+		"_start": "Start",
+		"_sendmeal": "Send meal to cyberspace",
+		"_uploadphotos": "Upload photos of your dishes",
+		"_play": "Play",
+		"_badges": "Badges"
+	},
+		
+	"_navigation": {
+		"_home": "Home",
+		"_leaderboard": "Leaderboard",
+		"_about": "About",
+		"_logout": "Log Out",
+		"_verify": "Verify Uploaded Meals",
+        "_catalog": "Catalog",
+        "_europeana": "Go To Europeana"
+	},
+	
+	"_badges": {
+		"_geographical": "Geographical",
+		"_challenges": "Challenges",
+		"_uploads": "Uploads",
+		"_tounlock": "To unlock this badge",
+		"_updatetitle": "Update Title",
+		"_share": "Share",
+		"_close": "Close",
+		"_unlock_euro_geographical": "Unlock each European Graphical badge",
+		"_unlock_geographical":"Unlock each Geographical badge",
+		"_unlock_scandinavia": "Play against 5 people from Scandinavia",
+		"_unlock_western": "Play against 5 people from Western Europe",
+		"_unlock_central": "Play against 5 people from Central Europe",
+		"_unlock_eastern": "Play agaisnt 5 people from Eastern Europe",
+		"_unlock_balkans": "Play against 5 people from the Balkans",
+		"_unlock_mediterranean": "Play against 5 people from the Mediterranean",
+		"_unlock_asia": "Play against 5 people from Asia",
+		"_unlock_africa": "Play against 5 people from Africa",
+		"_unlock_north_america": "Play against 5 people from North / Central America",
+		"_unlock_latin_america": "Play against 5 people from Latin America",
+		"_unlock_middle_east": "Play against 5 people from the Middle East",
+		"_unlock_oceania": "Play against 5 people from Oceania",
+		"_unlock_1Challenge": "Win 1 Challenge",
+		"_unlock_5Challenges": "Win 5 Challenges",
+		"_unlock_10Challenges": "Win 10 Challenges",
+		"_unlock_25Challenges": "Win 25 Challenges",
+		"_unlock_1share": "Share 1 meal",
+		"_unlock_5shares": "Share 5 meals",
+		"_unlock_10shares": "Share 10 meals",
+		"_unlock_1upload": "Upload 1 meal",
+		"_unlock_2upload":"Upload 2 meals",
+		"_unlock_5upload": "Upload 5 meals",
+		"_unlock_10upload": "Upload 10 meals",
+		"_unlock_25upload": "Upload 25 meals"
+		
+		
+	},
+	
+    "_leaderboard": {
+		"_points": "Points Earned",
+		"_challenges": "Challenges Won",
+		"_week": "This Week",
+		"_allTime": "All Time"
+    },
+	
+	
+	"_about": {
+		"_upper": "Food Planet was made possible through the Europeana Food and Drink project, which is funded by the European Commission under the ICT Policy Support Programme as part of the Competitiveness and Innovation Framework Programme.",
+		"_lower": "The aim of the game is to challenge other individuals from across the globe, while learning interesting facts about dishes, meals, ingredients, tools and utensils that are found world-wide.",
+		"_followup": "With this game one can also share their own images and let others guess which country that particular item originates from.",
+		"_letsstart": "So lets start guessing and find out where on Earth the items are from!"
+	},
+	
+	"_upload": {
+		"_upload": "Upload a photo",
+		"_whatdoyoucall": "What do you call this",
+		"_wherefrom": "Where is this from?",
+		"_enterdescription": "Enter a description",
+		"_cyberspace": "Send to cyberspace",
+		"_success": "Upload Success!",
+		"_thanks": "Thank You!",
+		"_sentforverification": "Your submission has been sent for verification",
+		"_failed": "Upload Failed",
+		"_tryagain": "Please try again later",
+		"_return": "Return Home"
+	}
+	
+	"_verify": {
+		"_uploadedby": "Uploaded By:",
+		"_location" : "Location:",
+		"_description" : "Description:",
+		"_accept": "Accept",
+		"_accept18" : "Accept 18+",
+		"_reject": "Reject",
+		"_banUser": "Ban User",
+		"_nosubmissions": "No Submissions"
+	}
+	
+	"_challenge": {
+		"_start": "Start Challenge",
+		"_howto": "How to Play",
+		"_challengeStart" : "Challenge starts in",
+		"_selectWhere": "Select where you think the food is from",
+		"_fasterAnswer": "The faster you answer, the more points you get",
+		"_somequestions": "Some questions may have more than 1 answer",
+		"_questionof": "Question 1/5",
+		"_ouch": "Ouch!",
+		"_outoftime": "Out of time",
+		"_taptomoveon": "Tap to move on!",
+		"_whereonearth": "Where on earth is this from?",
+		"_5points": "5 points",
+		"_wronganswer": "Wrong Answer",
+		"_whatis": "What is XXXX?",
+		"_yes": "Yes!!",
+		"_rightanswer": "Right Answer",
+		"_continue": "Continue",
+		"_loading": "Loading...",
+		"_end": "End of Challenge",
+		"_win": "You Win",
+		"_lose": "You Lose",
+		"_tie": "It's a tie!",
+		"_points": "Your Points"
+	}
+}

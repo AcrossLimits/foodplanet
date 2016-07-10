@@ -1,0 +1,148 @@
+{
+	"_login": {
+		"_facebook": "Bejelentkez�s Facebook fi�kkal",
+		"_guest": "J�t�k vend�gk�nt",
+		"_logging_in": "Bejelentkez�s",
+		"_banned": "Hozz�f�r�sed t�r�lve"
+	},
+
+	"_home": {
+		"_greeting": "Szia",
+		"_welcome": "�dv�zl�nk a Food Planet-en!",
+		"_welcome_left": "�dv �jra ",
+		"_welcome_right": "!",
+		"_countryselect": "V�laszd ki az orsz�god",
+		"_dobselect": "Add meg a sz�let�si d�tumod",
+		"_jan": "janu�r",
+		"_feb": "febru�r",
+		"_mar": "m�rcius",
+		"_apr": "�prilis",
+		"_may": "m�jus",
+		"_jun": "j�nius",
+		"_jul": "j�lius",
+		"_aug": "augusztus",
+		"_sep": "szeptember",
+		"_oct": "okt�ber",
+		"_nov": "november",
+		"_dec": "december",
+		"_start": "Start",
+		"_sendmeal": "K�ldj �telt az online t�rbe",
+		"_uploadphotos": "T�ltsd fel az �telek fot�j�t",
+		"_play": "J�tsz",
+		"_badges": "Jelv�nyek"
+	},
+
+	"_navigation": {
+		"_home": "Fooldal",
+		"_leaderboard": "Rangsor",
+		"_about": "A j�t�kr�l",
+		"_logout": "Kijelenkez�s",
+		"_verify": "Felt�lt�tt �telek hiteles�t�se",
+        "_catalog": "Katalógus",
+        "_europeana": "Europeana"
+	},
+
+	"_badges": {
+		"_geographical": "F�ldrajzi",
+		"_challenges": "P�rbajok",
+		"_uploads": "Felt�lt�sek",
+		"_tounlock": "Nyisd meg a jelv�nyt",
+		"_updatetitle": "C�m friss�t�se",
+		"_share": "Megoszt�s",
+		"_close": "Bez�r�s",
+		"_unlock_euro_geographical": "Bez�r�s",
+		"_unlock_geographical": "Nyiss meg minden eur�pai f�ldrajzi jev�nyt",
+		"_unlock_scandinavia": "Nyiss meg minden f�ldrajzi jelv�nyt",
+		"_unlock_western": "J�tssz 5 ember ellen Skandin�vi�b�l",
+		"_unlock_central": "J�tssz 5 ember ellen Nyugat-Eur�p�b�l",
+		"_unlock_eastern": "J�tssz 5 ember ellen K�z�p-Eur�p�b�l",
+		"_unlock_balkans": "J�tssz 5 ember ellen a Balk�nr�l",
+		"_unlock_mediterranean": "J�tssz 5 ember ellen a Mediterr�neumb�l",
+		"_unlock_asia": "J�tssz 5 ember ellen �zsi�b�l",
+		"_unlock_africa": "J�tssz 5 ember ellen Afrik�b�l",
+		"_unlock_north_america": "J�tssz 5 ember ellen �szak-Amerik�b�l/K�z�p-Amerik�b�l",
+		"_unlock_latin_america": "J�tssz 5 ember ellen Latin-Amerik�b�l",
+		"_unlock_middle_east": "J�tssz 5 ember ellen a K�zel-Keletrol",
+		"_unlock_oceania": "J�tssz 5 ember ellen �ce�ni�b�l",
+		"_unlock_1Challenge": "Nyerj meg 1 p�rbajt",
+		"_unlock_5Challenges": "Nyerj meg 5 p�rbajt",
+		"_unlock_10Challenges": "Nyerj meg 10 p�rbajt",
+		"_unlock_25Challenges": "Nyerj meg 25 p�rbajt",
+		"_unlock_1share": "Ossz meg 1 �telt",
+		"_unlock_5shares": "Ossz meg 5 �telt",
+		"_unlock_10shares": "Ossz meg 10 �telt",
+		"_unlock_1upload": "T�lts fel 1 �telt",
+		"_unlock_2upload": "T�lts fel 2 �telt",
+		"_unlock_5upload": "T�lts fel 5 �telt",
+		"_unlock_10upload": "T�lts fel 10 �telt",
+		"_unlock_25upload": "T�lts fel 25 �telt"
+
+
+	},
+
+	"_leaderboard": {
+		"_points": "Pontsz�mod",
+		"_challenges": "Megnyert p�rbajok",
+		"_week": "Ezen a h�ten",
+		"_allTime": "�sszes"
+	},
+
+
+	"_about": {
+		"_upper": "A Food Planet az Europeana Food and Drink projekt r�sze. A projektet az Eur�pai Bizotts�g finnsz�rozza az ICT (Inform�ci�s �s Kommunik�ci�s Technol�giai) Politikai T�mogat�si Program keretein bel�l, a Versenyk�pess�g �s Innov�ci�s Keretprogram r�szek�nt.",
+		"_lower": "A j�t�k c�lja, hogy a kih�v� p�rbajozzon m�s j�t�kosokkal a vil�g b�rmely r�sz�rol, k�zben �rdekes inform�ci�khoz jusson �telekkel, �sszetevokkel, eszk�z�kkel kapcsolatban, legyen az a vil�g b�rmely r�sz�rol.",
+		"_followup": "A j�t�k k�zben a r�sztvevok megoszthatj�k saj�t �telfot�ikat is, m�s j�t�kosoknak kell megtippelni�k, hogy honnan sz�rmazik az adott �tel.",
+		"_letsstart": "Kezdodj�n h�t a tippel�s, tal�ld ki az �telek sz�rmaz�si hely�t!"
+	},
+
+	"_upload": {
+		"_upload": "T�lts fel k�pet!",
+		"_whatdoyoucall": "Mi a neve?",
+		"_wherefrom": "Honnan sz�rmazik?",
+		"_enterdescription": "Adj hozz� le�r�st!",
+		"_cyberspace": "K�ldd el az online t�rbe!",
+		"_success": "Sikeres felt�lt�s!",
+		"_thanks": "K�sz�nj�k!",
+		"_sentforverification": "Felt�lt�sedet tov�bb�tottuk hiteles�t�sre",
+		"_failed": "A felt�lt�s nem siker�lt",
+		"_tryagain": "Pr�b�lkozz k�sobb!",
+		"_return": "Vissza a fooldalra"
+	},
+
+	"_verify": {
+		"_uploadedby": "Felt�lto:",
+		"_location": "Hely:",
+		"_description": "Le�r�s:",
+		"_accept": "Elfogadom",
+		"_accept18": "Elfogadom 18+",
+		"_reject": "Elvet",
+		"_banUser": "Felhaszn�l� letiltva",
+		"_nosubmissions": "Nem enged�lyezett"
+	},
+
+	"_challenge": {
+		"_start": "P�rbaj ind�t�sa",
+		"_howto": "J�t�kismerteto",
+		"_challengeStart": "P�rbaj kezd�se",
+		"_selectWhere": "V�lassz, honnan sz�rmazik az �tel",
+		"_fasterAnswer": "Min�l gyorsabban v�laszolsz, ann�l t�bb pontot kapsz",
+		"_somequestions": "SK�rd�sek, melyekre t�bb v�lasz is adhat�",
+		"_questionof": "K�rd�s 1/5",
+		"_ouch": "Jajj!",
+		"_outoftime": "Lej�rt az ido",
+		"_taptomoveon": "Tov�bb",
+		"_whereonearth": "Honnan sz�rmazik?",
+		"_5points": "5 pont",
+		"_wronganswer": "Rossz v�lasz",
+		"_whatis": "Mi az XXX?",
+		"_yes": "Igen!!!",
+		"_rightanswer": "J� v�lasz",
+		"_continue": "Tov�bb",
+		"_loading": "Bet�lt�s folyamatban..",
+		"_end": "P�rbaj v�ge",
+		"_win": "Nyert�l",
+		"_lose": "Vesztett�l",
+		"_tie": "D�ntetlen",
+		"_points": "Pontjaid"
+	}
+}

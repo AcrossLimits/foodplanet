@@ -1,0 +1,148 @@
+{
+	"_login": {
+		"_facebook": "Inici de sessió amb Facebook",
+		"_guest": "Jugar com a convidat",
+		"_logging_in": "Iniciant sessió",
+		"_banned": "El vostre compte ha estat suspès"
+	},
+
+	"_home": {
+		"_greeting": "Hola XXXX",
+		"_welcome": "Benvingut a Food Planet",
+		"_welcome_left": "Hola ",
+		"_welcome_right": "! Benvingut un altre cop!",
+		"_countryselect": "Si us pla, seleccioneu el vostre pais",
+		"_dobselect": "Si us plau, introdueixi la seva data de naixement",
+		"_jan": "Gener",
+		"_feb": "Febrer",
+		"_mar": "Març",
+		"_apr": "Abril",
+		"_may": "Maig",
+		"_jun": "June",
+		"_jul": "Juliol",
+		"_aug": "Agost",
+		"_sep": "Setembre",
+		"_oct": "Octubre",
+		"_nov": "Novembre",
+		"_dec": "Desembre",
+		"_start": "Començar",
+		"_sendmeal": "Enviar aquest menjar al ciberespai",
+		"_uploadphotos": "Puja fotos dels seus plats",
+		"_play": "Jugar",
+		"_badges": "Medalles"
+	},
+
+	"_navigation": {
+		"_home": "Inici",
+		"_leaderboard": "Taula de líders",
+		"_about": "En relació amb",
+		"_logout": "Finalitzar la sessió",
+		"_verify": "Verificar els menjars pujats",
+        "_catalog": "Catàleg",
+        "_europeana": "Anar a la  Europeana"
+	},
+
+	"_badges": {
+		"_geographical": "Geogràfic",
+		"_challenges": "Desafiaments",
+		"_uploads": "Pujades",
+		"_tounlock": "Per a desbloquejar aquesta medalla",
+		"_updatetitle": "Actualitzar el títol",
+		"_share": "Compartir",
+		"_close": "Tancar",
+		"_unlock_euro_geographical": "Desbloquejar cada medalla europea",
+		"_unlock_geographical": "Desbloquejar cada medalla geogràfica",
+		"_unlock_scandinavia": "Jugar contra 5 persones d'Escandinàvia",
+		"_unlock_western": "Jugar contra 5 persones d'Europa Occidental",
+		"_unlock_central": "Jugar contra 5 persones d'Europa Central",
+		"_unlock_eastern": "Jugar contra 5 persones d'Europa de l'Est",
+		"_unlock_balkans": "Jugar contra 5 persones dels Balcans",
+		"_unlock_mediterranean": "Jugar contra 5 persones de la Mediterrània",
+		"_unlock_asia": "Jugar contra 5 persones d'Àsia",
+		"_unlock_africa": "Jugar contra 5 persones d'Àfrica",
+		"_unlock_north_america": "Jugar contra 5 persones d'Amèrica Central / del Nord",
+		"_unlock_latin_america": "Jugar contra 5 persones d'Amèrica Llatina",
+		"_unlock_middle_east": "Jugar contra 5 persones de l'Orient Mitjà",
+		"_unlock_oceania": "Jugar contra 5 persones d'Oceania",
+		"_unlock_1Challenge": "Guanyar 1 desafiament",
+		"_unlock_5Challenges": "Guanyar 5 desafiaments",
+		"_unlock_10Challenges": "Guanyar 10 desafiaments",
+		"_unlock_25Challenges": "Guanyar 25 desafiaments",
+		"_unlock_1share": "Compartir 1 menjar",
+		"_unlock_5shares": "Compartir 5 menjars",
+		"_unlock_10shares": "Compartir 10 menjars",
+		"_unlock_1upload": "Pujar 1 menjar",
+		"_unlock_2upload": "Pujar 2 menjars",
+		"_unlock_5upload": "Pujar 5 menjars",
+		"_unlock_10upload": "Pujar 10 menjars",
+		"_unlock_25upload": "Pujar 25 menjars"
+
+
+	},
+
+	"_leaderboard": {
+		"_points": "Punts guanyats",
+		"_challenges": "Desafiaments guanyats",
+		"_week": "Aquesta setmana",
+		"_allTime": "En tot moment"
+	},
+
+
+	"_about": {
+		"_upper": "Food Planet ha estat a través del projecte Europeana Food and Drink, finançat per la Comissió Europea en el marc del Programa  de Support a les Polítiques TIC com a part del Programa Marc de Competitivitat i Innovació.",
+		"_lower": "L'objectiu del joc és desafiar altres individus de tot el planeta, alhora que aprendre trets interessants sobre els plats, menjars, ingredients, eines i utensilis que es troben arreu.",
+		"_followup": "Amb aquest joc es poden compartir les pròpies imatges i permetre d'altres endivinar de quin país és originària aquell article concret.",
+		"_letsstart": "Així doncs, comencem a envedinar i esbrinar d'on diantre són aquestes coses!"
+	},
+
+	"_upload": {
+		"_upload": "Pujeu una fotografia",
+		"_whatdoyoucall": "Com li diuen a això?",
+		"_wherefrom": "D'on és això?",
+		"_enterdescription": "Introduiu una descripció",
+		"_cyberspace": "Enviar al ciberespai",
+		"_success": "Pujada amb èxit!",
+		"_thanks": "Gràcies!",
+		"_sentforverification": "La vostra sol·licitud ha estat enviada per a la seva verificació",
+		"_failed": "Pujada fallida",
+		"_tryagain": "Si us plau, intenta-ho més tard",
+		"_return": "Torna a l'inici"
+	},
+
+	"_verify": {
+		"_uploadedby": "Pujat per:",
+		"_location": "Ubicació:",
+		"_description": "Descripció:",
+		"_accept": "Acceptar",
+		"_accept18": "Acceptar 18+",
+		"_reject": "Rebutjar",
+		"_banUser": "Vetar l'usuari",
+		"_nosubmissions": "No hi ha sol·lcituds"
+	},
+
+	"_challenge": {
+		"_start": "Començar el desafiament",
+		"_howto": "Com jugar",
+		"_challengeStart": "El desafiament comença en",
+		"_selectWhere": "Seleccioneu d'on penseu que és el menjar",
+		"_fasterAnswer": "Quan més ràpid responguis, millor puntuació obtindràs",
+		"_somequestions": "Algunes preguntes poden tenir més d'una resposta",
+		"_questionof": "Pregunta 1/5",
+		"_ouch": "Ai!",
+		"_outoftime": "S'ha acabat el temps",
+		"_taptomoveon": "Toqueu per seguir endavant",
+		"_whereonearth": "D'on caramb és això?",
+		"_5points": "5 punts",
+		"_wronganswer": "Resposta errònia",
+		"_whatis": "Què és XXXX?",
+		"_yes": "Si!!",
+		"_rightanswer": "Resposta correcta",
+		"_continue": "Continua",
+		"_loading": "Carregant...",
+		"_end": "Fi del desafiament",
+		"_win": "Heu guanyat",
+		"_lose": "Heu perdut",
+		"_tie": "Empatat!",
+		"_points": "La teva puntuació"
+	}
+}

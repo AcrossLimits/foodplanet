@@ -1,0 +1,148 @@
+{
+	"_login": {
+		"_facebook": "Idħol permezz ta' Facebook",
+		"_guest": "Ilgħab bħala viżitatur",
+		"_logging_in": "Dħul",
+		"_banned": "Il-kont tiegħek ġie pprojbit"
+	},
+
+	"_home": {
+		"_greeting": "Bonġu XXXX",
+		"_welcome": "Merħba f'Food Planet",
+		"_welcome_left": "Merħba lura, ",
+"_welcome_right": "!",
+		"_countryselect": "Jekk jogħġbok għażel pajjiżek",
+		"_dobselect": "Jekk jogħġbok ikteb id-data tat-twelid tiegħek",
+		"_jan": "Jannar",
+		"_feb": "Frar",
+		"_mar": "Marzu",
+		"_apr": "April",
+		"_may": "Mejju",
+		"_jun": "Ġunju",
+		"_jul": "Lulju",
+		"_aug": "Awissu",
+		"_sep": "Settembru",
+		"_oct": "Ottubru",
+		"_nov": "Novembru",
+		"_dec": "Diċembru",
+		"_start": "Ibda",
+		"_sendmeal": "Ibgħat ikla f'cyberspace",
+		"_uploadphotos": "Tella' ritratti ta' l-ikel tiegħek",
+		"_play": "Ilgħab",
+		"_badges": "Badġes"
+	},
+
+	"_navigation": {
+		"_home": "Dar",
+		"_leaderboard": "Leaderboard",
+		"_about": "Dwar",
+		"_logout": "Oħroġ",
+		"_verify": "Ivverifika l-ikel",
+        "_catalog": "Catalog",
+        "_europeana": "Europeana"
+	},
+
+	"_badges": {
+		"_geographical": "Ġeografika",
+		"_challenges": "Sfidi",
+		"_uploads": "Uploads",
+		"_tounlock": "Biex tiftaħ dan il-badġe",
+		"_updatetitle": "Ikteb titlu ġdid",
+		"_share": "Aqsam",
+		"_close": "Agħlaq",
+		"_unlock_euro_geographical": "Iftaħ kull badġe geografika Ewropej",
+		"_unlock_geographical": "Iftaħ kull badġe geografika",
+		"_unlock_scandinavia": "Ilgħab kontra 5 nies mill-iSkandinavja",
+		"_unlock_western": "Ilgħab kontra 5 nies mill-Punent ta' l-Ewropa",
+		"_unlock_central": "Ilgħab kontra 5 nies miċ-ċentru ta' l-Ewropa",
+		"_unlock_eastern": "Ilgħab kontra 5 nies mill-Lvant ta' l-Ewropa",
+		"_unlock_balkans": "Ilgħab kontra 5 nies mill-Balkani",
+		"_unlock_mediterranean": "Ilgħab kontra 5 nies mill-Mediterran",
+		"_unlock_asia": "Ilgħab kontra 5 nies mill-Asja",
+		"_unlock_africa": "Ilgħab kontra 5 nies mill-Afrika",
+		"_unlock_north_america": "Ilgħab kontra 5 nies mit-Tramuntana jew ċ-ċentru ta' l-Amerika",
+		"_unlock_latin_america": "Ilgħab kontra 5 nies min-nofsinhar ta l-Amerika",
+		"_unlock_middle_east": "Ilgħab kontra 5 nies mill-lvant Nofsani",
+		"_unlock_oceania": "Ilgħab kontra 5 nies mill-Oċeanja",
+		"_unlock_1Challenge": "Irbaħ sfida 1",
+		"_unlock_5Challenges": "Irbaħ 5 sfidi",
+		"_unlock_10Challenges": "Irbaħ 10 sfidi",
+		"_unlock_25Challenges": "Irbaħ 25 sfidi",
+		"_unlock_1share": "Aqsam ikla",
+		"_unlock_5shares": "Aqsam 5 ikliet",
+		"_unlock_10shares": "Aqsam 10 ikliet",
+		"_unlock_1upload": "Tella' ikla",
+		"_unlock_2upload": "Tella' 2 ikliet",
+		"_unlock_5upload": "Tella' 5 ikliet",
+		"_unlock_10upload": "Tella' 10 ikliet",
+		"_unlock_25upload": "Tella' 25 ikliet"
+
+
+	},
+
+	"_leaderboard": {
+		"_points": "Punti merbuħajn",
+		"_challenges": "Sfidi mrebħa",
+		"_week": "Din il-ġimgħa",
+		"_allTime": "Il-ħin kollhu"
+	},
+
+
+	"_about": {
+		"_upper": "Il-logħba Food Planet saret possibbli grazzi tal-proġett Europeana Food and Drink, li hija ffinanzjata mill-Kummissjoni Ewropeja taħt il-Programm ICT Policy Support li tifforma parti mill-Framework Programme tal-Kompettitività u Innovazzjoni.",
+		"_lower": "L-għan ta' din il-logħba hija biex tisfida oħrajn minn pajjiżi differenti, waqt li titgħallem fatti interessanti dwar l-ikel, ingredienti, għodda u utensili li ssib madwar id-dinja kollha.",
+		"_followup": "B'din il-logġba, wieħed jista' jaqsam ma'kulħadd ir-ritratti tiegħu stess u jħalli minn jipprova jaqta' minn fejn ġej dak l-oġġett.",
+		"_letsstart": "Ejja nibdew naqtaw u niskopru minn fejn ġejjin dawn l-affarijiet!"
+	},
+
+	"_upload": {
+		"_upload": "Tella' ritratt",
+		"_whatdoyoucall": "X'tgħidulu dan?",
+		"_wherefrom": "Minn fejn hija din?",
+		"_enterdescription": "Ikteb deskrizzjoni",
+		"_cyberspace": "Ibgħat lejn cyberspace",
+		"_success": "L-upload kien suċċess!",
+		"_thanks": "Grazzi!",
+		"_sentforverification": "Is-sottomissjoni tiegħek ntbagħat għal verifikazzjoni",
+		"_failed": "L-upload ma rnexxietx",
+		"_tryagain": "Jekk jogħġbok erġa' ipprova aktar tard",
+		"_return": "Irritorna lura"
+	},
+
+	"_verify": {
+		"_uploadedby": "Mtella' minn:",
+		"_location": "Post:",
+		"_description": "Deskrizzjoni:",
+		"_accept": "Aċċetta ",
+		"_accept18": "Aċċetta 18+",
+		"_reject": "Irrifjuta",
+		"_banUser": "pprojbixxi utent",
+		"_nosubmissions": "Ebda sottomissjonijiet"
+	},
+
+	"_challenge": {
+		"_start": "Ibda sfida",
+		"_howto": "Kif tilgħab",
+		"_challengeStart": "L-sfida tibda f'",
+		"_selectWhere": "Agħżel minn fejn taħseb li ġej dan l-ikel",
+		"_fasterAnswer": "Iktar ma twieġeb malajr, iktar tirbaħ punti",
+		"_somequestions": "Xi mistoqsijiet jista' jkollhom aktar minn twieġiba waħda",
+		"_questionof": "Mistoqsija 1/5",
+		"_ouch": "Ah!",
+		"_outoftime": "Skada l-ħin",
+		"_taptomoveon": "Miss subajk hawn biex tmur l-quddiem!",
+		"_whereonearth": "Minn fejn ġejja din?",
+		"_5points": "5 punti",
+		"_wronganswer": "It-twieġiba ħażina",
+		"_whatis": "X'inhu XXXX?",
+		"_yes": "Iva!!",
+		"_rightanswer": "It-twieġiba t-tajba",
+		"_continue": "Kompli",
+		"_loading": "Fil-proċess...",
+		"_end": "Tmiem l-isfida",
+		"_win": "Inti irbaħt",
+		"_lose": "Inti tlift",
+		"_tie": "Ġejtu indaqs!",
+		"_points": "Il-punti tiegħek"
+	}
+}

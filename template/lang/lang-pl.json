@@ -1,0 +1,148 @@
+{
+	"_login": {
+		"_facebook": "Zaloguj przez Facebook",
+		"_guest": "Graj jako Gosc",
+		"_logging_in": "Zaloguj ",
+		"_banned": "Twoje konto zostalo zablokowane"
+	},
+
+	"_home": {
+		"_greeting": "Czesc XXXX",
+		"_welcome": "Witamy w Food Planet",
+		"_welcome_left": "Czesc ",
+		"_welcome_right": "! Witaj z powrotem!",
+		"_countryselect": "Wybierz swój kraj",
+		"_dobselect": "Podaj date urodzenia",
+		"_jan": "styczen",
+		"_feb": "luty",
+		"_mar": "marzec",
+		"_apr": "kwiecien",
+		"_may": "maj",
+		"_jun": "czerwiec",
+		"_jul": "lipiec",
+		"_aug": "sierpien",
+		"_sep": "wrzesien",
+		"_oct": "pazdziernik",
+		"_nov": "listopad",
+		"_dec": "grudzien",
+		"_start": "Start",
+		"_sendmeal": "Wyslij posilek w cyberprzestrzen",
+		"_uploadphotos": "Dodaj zdjecia swoich dan",
+		"_play": "Graj",
+		"_badges": "Odznaki"
+	},
+
+	"_navigation": {
+		"_home": "Strona Główna",
+		"_leaderboard": "Ranking",
+		"_about": "O nas",
+		"_logout": "Wyloguj",
+		"_verify": "Weryfikacja dodanych posiłków",
+        "_catalog": "Katalog",
+        "_europeana": "Idź do Europeana"
+	},
+
+	"_badges": {
+		"_geographical": "Geograficzne",
+		"_challenges": "Wyzwania",
+		"_uploads": "Dodane pliki",
+		"_tounlock": "Aby odblokowac odznake",
+		"_updatetitle": "Aktualizuj Tytul",
+		"_share": "Udostepnij",
+		"_close": "Zamknij",
+		"_unlock_euro_geographical": "Odblokuj wszystkie geograficzne odznaki z Europy",
+		"_unlock_geographical": "Odblokuj wszystkie geograficzne odznaki",
+		"_unlock_scandinavia": "Graj z 5 osobami ze Skandynawii",
+		"_unlock_western": "Graj z 5 osobami z Europy Zachodniej",
+		"_unlock_central": "Graj z 5 osobami z Europy Centralnej",
+		"_unlock_eastern": "Graj z 5 osobami z Europy Wschodniej",
+		"_unlock_balkans": "Graj z 5 osobami z Bałkanów",
+		"_unlock_mediterranean": "Graj z 5 osobami z krajów śródziemnomorskich",
+		"_unlock_asia": "Graj z 5 osobami z Azji",
+		"_unlock_africa": "Graj z 5 osobami z Afryki",
+		"_unlock_north_america": "Graj z 5 osobami z Ameryki Północnej",
+		"_unlock_latin_america": "Graj z 5 osobami z Ameryki Lacinskiej",
+		"_unlock_middle_east": "Graj z 5 osobami z Bliskiego Wschodu",
+		"_unlock_oceania": "Graj z 5 osobami z Oceanii",
+		"_unlock_1Challenge": "Wygraj 1 Wyzwanie",
+		"_unlock_5Challenges": "Wygraj 5 Wyzwan",
+		"_unlock_10Challenges": "Wygraj 10 Wyzwan",
+		"_unlock_25Challenges": "Wygraj 25 Wyzwan",
+		"_unlock_1share": "Udostepnij 1 posilek",
+		"_unlock_5shares": "Udostępnij 5 posiłków",
+		"_unlock_10shares": "Udostępnij 10 posiłków",
+		"_unlock_1upload": "Dodaj 1 posilek",
+		"_unlock_2upload": "Dodaj 2 posilki",
+		"_unlock_5upload": "Dodaj 5 posiłków",
+		"_unlock_10upload": "Dodaj 10 posiłków",
+		"_unlock_25upload": "Dodaj 25 posiłków"
+
+
+	},
+
+	"_leaderboard": {
+		"_points": "Zdobyte Punkty",
+		"_challenges": "Wygrane Wyzwania",
+		"_week": "W tym tygodniu",
+		"_allTime": "All time"
+	},
+
+
+	"_about": {
+		"_upper": "Food Planet powstalo dzieki projektowi Europeana Food and Drink. EFD jest finansowane przez Komisje Europejska w ramach Programu na Rzecz Wspierania Polityki w Zakresie Technologii Informacyjnych i Komunikacyjnych, bedacegoczescia Programu Ramowego na rzecz Konkurencyjnosci i Innowacji.",
+		"_lower": "Rozpocznijmy zgadywanie! Dowiedz sie z jakiego miejsca na swiecie pochodza te potrawy!",
+		"_followup": "W ramach gry mozesz takze udostepniac wlasne zdjecia, aby inni glowili sie skad dana rzecz pochodzi.",
+		"_letsstart": "Rozpocznijmy zgadywanie! Dowiedz sie z jakiego miejsca na swiecie pochodza te potrawy!"
+	},
+
+	"_upload": {
+		"_upload": "Przeslij zdjecie",
+		"_whatdoyoucall": "Jak to sie nazywa?",
+		"_wherefrom": "Skad to jest?",
+		"_enterdescription": "Dodaj opis",
+		"_cyberspace": "Wyslij w cyberprzestrzen",
+		"_success": "Przesylanie powiodlo sie! ",
+		"_thanks": "Dziekujemy!",
+		"_sentforverification": "Twoje zgloszenie zostalo wyslane do weryfikacji",
+		"_failed": "Przesylanie nie powiodlo sie",
+		"_tryagain": "Spróbuj później",
+		"_return": "Powrót na Stronę Główną"
+	},
+
+	"_verify": {
+		"_uploadedby": "Dodane przez:",
+		"_location": "Miejsce:",
+		"_description": "Opis:",
+		"_accept": "Akceptuje",
+		"_accept18": "Akceptuje 18+",
+		"_reject": "Odrzuc",
+		"_banUser": "Uzytkownik Zablokowany",
+		"_nosubmissions": "Brak zgloszen"
+	},
+
+	"_challenge": {
+		"_start": "Zacznij Wyzwanie",
+		"_howto": "Jak Grac",
+		"_challengeStart": "Wyzwanie zacznie sie za ",
+		"_selectWhere": "Wybierz skad pochodzi Twoim zdaniem to jedzenie",
+		"_fasterAnswer": "Im szybciej odpowiesz, tym więcej zdobywasz punktów",
+		"_somequestions": "Niektóre pytania mają więcej niż 1 odpowiedź",
+		"_questionof": "Pytanie 1/5",
+		"_ouch": "Auc! ",
+		"_outoftime": "Koniec czasu",
+		"_taptomoveon": "Stuknij ekran, aby przejsc dalej!",
+		"_whereonearth": "Skad to pochodzi?",
+		"_5points": "5 punktów",
+		"_wronganswer": "Odpowiedz niepoprawna",
+		"_whatis": "Czym jest XXX! ",
+		"_yes": "Tak!!",
+		"_rightanswer": "Poprawna Odpowiedz",
+		"_continue": "Dalej",
+		"_loading": "Ladowanie......",
+		"_end": "Koniec Wyzwania",
+		"_win": "Wygrywasz",
+		"_lose": "Przegrywasz",
+		"_tie": "Remis!",
+		"_points": "Twoje Punkty"
+	}
+}

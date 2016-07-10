@@ -1,0 +1,148 @@
+{
+	"_login": {
+		"_facebook": "Über Facebook einloggen",
+		"_guest": "Im Gastmodus spielen",
+		"_logging_in": "Einloggen",
+		"_banned": "Ihr Konto wurde gesperrt"
+	},
+
+	"_home": {
+		"_greeting": "Hallo XXXX",
+		"_welcome": "Willkommen bei Food Planet",
+		"_welcome_left": "Hallo ",
+		"_welcome_right": "! Willkommen zurück!",
+		"_countryselect": "Bitte geben Sie ihr Geburtsdatum an",
+		"_dobselect": "Bitte geben Sie ihr Geburtsdatum an",
+		"_jan": "Jannur",
+		"_feb": "Februar",
+		"_mar": "M�rz",
+		"_apr": "April",
+		"_may": "Mai",
+		"_jun": "Juni",
+		"_jul": "Juli",
+		"_aug": "August",
+		"_sep": "September",
+		"_oct": "Oktober",
+		"_nov": "November",
+		"_dec": "Dezember",
+		"_start": "Beginnen",
+		"_sendmeal": "Reiche dein Gericht ein",
+		"_uploadphotos": "Foto des Gerichts hochladen",
+		"_play": "Spiel",
+		"_badges": "Badges"
+	},
+
+	"_navigation": {
+		"_home": "Home",
+		"_leaderboard": "Bestenliste",
+		"_about": "Über",
+		"_logout": "Ausloggen",
+		"_verify": "Hochgeladene Gerichte verifizieren",
+        "_catalog": "Katalog",
+        "_europeana": "Gehe zu Europeana"
+	},
+
+	"_badges": {
+		"_geographical": "Geografisch",
+		"_challenges": "Challenges",
+		"_uploads": "Uploads",
+		"_tounlock": "Um diesen Badge freizuschalten",
+		"_updatetitle": "Spielstatus aktualisiert",
+		"_share": "Teilen",
+		"_close": "Schließen ",
+		"_unlock_euro_geographical": "Schalte alle Europäischen geographischen Badges frei",
+		"_unlock_geographical": "Schalte alle georaphischen Badges frei",
+		"_unlock_scandinavia": "Spiele gegen 5 User aus Skandinavien",
+		"_unlock_western": "Spiele gegen 5 User aus Westeuropa",
+		"_unlock_central": "Spiele gegen 5 User aus Mitteleuropa",
+		"_unlock_eastern": "Spiele gegen 5 User aus Osteuropa",
+		"_unlock_balkans": "Spiele gegen 5 User vom Balkan",
+		"_unlock_mediterranean": "Spiele gegen 5 User aus der Mittelmeerregion",
+		"_unlock_asia": "Spiele gegen 5 User aus Asien",
+		"_unlock_africa": "Spiele gegen 5 User aus Afrika",
+		"_unlock_north_america": "Spiele gegen 5 User aus Nord / Mittelamerika",
+		"_unlock_latin_america": "Spiele gegen 5 User aus Latinamerika",
+		"_unlock_middle_east": "Spiele gegen 5 User aus dem mittleren Osten",
+		"_unlock_oceania": "Spiele gegen 5 User aus Ozeanien",
+		"_unlock_1Challenge": "Gewinne 1 Challenge",
+		"_unlock_5Challenges": "Gewinne 5 Challenges",
+		"_unlock_10Challenges": "Gewinne 10 Challenges",
+		"_unlock_25Challenges": "Gewinne 25 Challenges ",
+		"_unlock_1share": "1 Gericht teilen",
+		"_unlock_5shares": "5 Gerichte teilen",
+		"_unlock_10shares": "10 Gerichte teilen",
+		"_unlock_1upload": "1 Gericht hochladen",
+		"_unlock_2upload": "2 Gerichte hochladen",
+		"_unlock_5upload": "5 Gerichte hochladen",
+		"_unlock_10upload": "10 Gerichte hochladen",
+		"_unlock_25upload": "25 Gerichte hochladen"
+
+
+	},
+
+	"_leaderboard": {
+		"_points": "Erreichte Punkte",
+		"_challenges": "Gewonnene Challenges",
+		"_week": "Diese Woche",
+		"_allTime": "Insgesamt"
+	},
+
+
+	"_about": {
+		"_upper": "Food Planet wurde durch das Europeana Food and Drink Projekt ermöglicht, finanziell unterstützt von der europäischen Kommission unter dem ICT Policy Support Programme als Teil des Competitiveness and Innovation Framework Programme.",
+		"_lower": "Das Ziel des Spieles, ist es, User weltweit herauszufordern und gleichzeitig Wissenswertes über Gerichte, Zutaten, Küchengeräte und -zubehör aus aller Welt zu erfahren.  ",
+		"_followup": "In diesem Spiel kann man auch eigene Bilder teilen und andere User raten lassen, aus welchem Land das Gericht stammt.  ",
+		"_letsstart": "Also, lasst das Ratespiel beginnen um herauszufinden, von wo auf der Welt es herkommt."
+	},
+
+	"_upload": {
+		"_upload": "Foto hochladen",
+		"_whatdoyoucall": "Wie nennt sich das?",
+		"_wherefrom": "Wo kommt es her??",
+		"_enterdescription": "Beschreibung eintragen",
+		"_cyberspace": "Hochladen",
+		"_success": "Upload erfolgreich",
+		"_thanks": "Danke schön",
+		"_sentforverification": "Die Einreichung wird überprüft",
+		"_failed": "Upload fehlgeschlagen",
+		"_tryagain": "Bitte versuche es später erneut",
+		"_return": "Zurück zu Home"
+	},
+
+	"_verify": {
+		"_uploadedby": "Hochgeladen von:",
+		"_location": "Lage:",
+		"_description": "Beschreibung:",
+		"_accept": "Akzeptieren   ",
+		"_accept18": "Akzeptiere 18+",
+		"_reject": "Ablehnen",
+		"_banUser": "User blockieren",
+		"_nosubmissions": "Keine Einreichungen"
+	},
+
+	"_challenge": {
+		"_start": "Challenge starten",
+		"_howto": "Wie funktioniert's",
+		"_challengeStart": "Die Challenge beginnt in",
+		"_selectWhere": "Wähle den Herkunftsort des Gerichtes aus",
+		"_fasterAnswer": "Je schneller du antwortest, desto mehr Punkte bekommst du",
+		"_somequestions": "Manche Fragen können mehr als eine richtige Antwort haben",
+		"_questionof": "Frage 1/5",
+		"_ouch": "Au!!",
+		"_outoftime": "Die Zeit ist abgelaufen",
+		"_taptomoveon": "Berühre den Bildschirm um fortzufahren",
+		"_whereonearth": "Von wo in der Welt kommt das her?",
+		"_5points": "5 Punkte",
+		"_wronganswer": "Falsche Antwort",
+		"_whatis": "Was ist?",
+		"_yes": "Ja!!",
+		"_rightanswer": "Richtige Antwort",
+		"_continue": "Fortfahren",
+		"_loading": "Laden...",
+		"_end": "Ende der Challenge",
+		"_win": "Gewonnen",
+		"_lose": "Verloren",
+		"_tie": "Unentschieden",
+		"_points": "Ihre Punkte"
+	}
+}

@@ -1,0 +1,148 @@
+{
+	"_login": {
+		"_facebook": "Prisijungti per Facebook",
+		"_guest": "Žaisti svečio teisėmis",
+		"_logging_in": "Prisijungiama",
+		"_banned": "Draudžiama jungis per Jūsų paskyrą"
+	},
+
+	"_home": {
+		"_greeting": "Labas, XXX",
+		"_welcome": "Sveiki atvykę į Food Planet",
+		"_welcome_left": "Sveiki sugrįžę, ",
+		"_welcome_right": "!",
+		"_countryselect": "Prašome pasirinkti šalį",
+		"_dobselect": "Prašome įvesti savo gimimo datą",
+		"_jan": "Sausis",
+		"_feb": "Vasaris",
+		"_mar": "Kovas",
+		"_apr": "Balandis",
+		"_may": "Gegužė",
+		"_jun": "Birželis",
+		"_jul": "Liepa",
+		"_aug": "Rugpjūtis",
+		"_sep": "Rugsėjis",
+		"_oct": "Spalis",
+		"_nov": "Lapkritis",
+		"_dec": "Gruodis",
+		"_start": "Pradžia",
+		"_sendmeal": "Nusiųsti patiekalą į elektroninę erdvę",
+		"_uploadphotos": "Įkelti savo patiekalų nuotraukas",
+		"_play": "Žaisti",
+		"_badges": "Ženkleliai"
+	},
+
+	"_navigation": {
+		"_home": "Į pradžią",
+		"_leaderboard": "Taškai",
+		"_about": "Apie",
+		"_logout": "Atsijungti",
+		"_verify": "Patikrinti įkeltus patiekalus",
+        "_catalog": "Katalogas",
+        "_europeana": "Eiti į Europeana"
+	},
+
+	"_badges": {
+		"_geographical": "Geografinis",
+		"_challenges": "Iššūkiai",
+		"_uploads": "Įkelti",
+		"_tounlock": "Atrakinti ženklelį",
+		"_updatetitle": "Atnaujinti pavadinimą",
+		"_share": "Dalintis",
+		"_close": "Uždaryti",
+		"_unlock_euro_geographical": "Atrakinti Europos geografinį ženklelį",
+		"_unlock_geographical": "Atrakinti visus geografinius ženklelius",
+		"_unlock_scandinavia": "Žaisti prieš 5 žmones iš Skandinavijos",
+		"_unlock_western": "Žaisti prieš 5 žmones iš Vakarų Europos",
+		"_unlock_central": "Žaisti prieš 5 žmones iš Centrinės Europos",
+		"_unlock_eastern": "Žaisti prieš 5 žmones iš Rytų Europos",
+		"_unlock_balkans": "Žaisti prieš 5 žmones iš Balkanų regiono",
+		"_unlock_mediterranean": "Žaisti prieš 5 žmones iš Viduržemio jūros regiono",
+		"_unlock_asia": "Žaisti prieš 5 žmones iš Azijos",
+		"_unlock_africa": "Žaisti prieš 5 žmones iš Afrikos",
+		"_unlock_north_america": "Žaisti prieš 5 žmones iš Centrinės Amerikos",
+		"_unlock_latin_america": "Žaisti prieš 5 žmones iš Lotynų Amerikos",
+		"_unlock_middle_east": "Žaisti prieš 5 žmones iš Artimųjų Rytų",
+		"_unlock_oceania": "Žaisti prieš 5 žmones iš Okeanijos",
+		"_unlock_1Challenge": "Laimėti 1 iššūkį",
+		"_unlock_5Challenges": "Laimėti 5 iššūkius",
+		"_unlock_10Challenges": "Laimėti 10 iššūkių",
+		"_unlock_25Challenges": "Laimėti 25 iššūkius",
+		"_unlock_1share": "Pasidalinti 1 patiekalu",
+		"_unlock_5shares": "Pasidalinti 5 patiekalais",
+		"_unlock_10shares": "Pasidalinti 10 patiekalų",
+		"_unlock_1upload": "Įkelti 1 patiekalą",
+		"_unlock_2upload": "Įkelti 2 patiekalus",
+		"_unlock_5upload": "Įkelti 5 patiekalus",
+		"_unlock_10upload": "Įkelti 10 patiekalų",
+		"_unlock_25upload": "Įkelti 25 patiekalus"
+
+
+	},
+
+	"_leaderboard": {
+		"_points": "Gauti taškai",
+		"_challenges": "Laimėti iššūkiai",
+		"_week": "Šią savaitę",
+		"_allTime": "Per visą laiką"
+	},
+
+
+	"_about": {
+		"_upper": "Food Planet - tai žaidimas sukurtas projekto Europeana Food and Drink metu, kuris buvo finansuojamas pagal Europos Komisijos IKT strategijos rėmimo bei Konkurencijos ir Inovacijos struktūrų programas.",
+		"_lower": "Žaidimo tikslas - mesti iššūkį kitiems žaidėjams iš viso pasaulio ir kartu sužinoti įdomių faktų apie pasaulio maistą, patiekalus, ingridientus ir įrankius.",
+		"_followup": "Jūs taip pat galite dalintis savo įkeltomis patiekalų nuotraukomis ir leisti kitiems spėti šalį, iš kurios kilę šie patiekalai.",
+		"_letsstart": "Taigi pradėkime žaidimą ir sužinokime iš kur kilę šie patiekalai!"
+	},
+
+	"_upload": {
+		"_upload": "Įkelti nuotrauką",
+		"_whatdoyoucall": "Kaip vadinasi šis patiekalas?",
+		"_wherefrom": "Iš kur šis patiekalas?",
+		"_enterdescription": "Pateikti patiekalo aprašymą",
+		"_cyberspace": "Nusiųsti į elektroninę erdvę",
+		"_success": "Sėkmingai įkelta!",
+		"_thanks": "Ačiū!",
+		"_sentforverification": "Nusiųsta patikrinimui",
+		"_failed": "Nepavyko įkelti",
+		"_tryagain": "Prašau bandykite dar kartą",
+		"_return": "Grįžti į pradžią"
+	},
+
+	"_verify": {
+		"_uploadedby": "Įkėlė:",
+		"_location": "Vieta:",
+		"_description": "Aprašymas::",
+		"_accept": "Patvirtinti",
+		"_accept18": "Patvirtinti 18+",
+		"_reject": "Atmesti",
+		"_banUser": "Blokuoti vartotoją",
+		"_nosubmissions": "Įkeltų nėra"
+	},
+
+	"_challenge": {
+		"_start": "Pradėti iššūkį",
+		"_howto": "Kaip žaisti",
+		"_challengeStart": "Iššūkis prasidės...",
+		"_selectWhere": "Pasirinkite Jūsų manymu teisingą patiekalo šalį",
+		"_fasterAnswer": "Kuo greičiau atsakysite, tuo daugiau taškų gausite",
+		"_somequestions": "Kai kurie klausimai gali turėti daugiau nei vieną atsakymą",
+		"_questionof": "Klausimas 1/5",
+		"_ouch": "Oi!",
+		"_outoftime": "Laikas baigėsi",
+		"_taptomoveon": "Tęsti toliau!",
+		"_whereonearth": "Iš kokios šalies šis patiekalas?",
+		"_5points": "5 taškai",
+		"_wronganswer": "Neteisingas atsakymas",
+		"_whatis": "Kas yra XXXX?",
+		"_yes": "Taip!!",
+		"_rightanswer": "Teisingas atsakymas",
+		"_continue": "Tęsti",
+		"_loading": "Kraunasi...",
+		"_end": "Iššūkio pabaiga",
+		"_win": "Jūs laimėjote",
+		"_lose": "Jūs pralaimėjote",
+		"_tie": "Lygiosios!",
+		"_points": "Jūsų taškai"
+	}
+}

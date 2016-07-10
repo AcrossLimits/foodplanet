@@ -1,0 +1,148 @@
+{
+	"_login": {
+		"_facebook": "Prihl�sit cez FB",
+		"_guest": "Hrat ako Host",
+		"_logging_in": "Prihl�senie",
+		"_banned": "Tvoj �cet bol zak�zan�"
+	},
+
+	"_home": {
+		"_greeting": "Ahoj XXXX",
+		"_welcome": "Vitajte vo Food Planet",
+		"_welcome_left": "Heeej ",
+		"_welcome_right: "! Vitajte sp�t!",
+		"_countryselect": "Pros�m vyberte svoju krajinu",
+		"_dobselect": "Pros�m vlo�te d�tum narodenia",
+		"_jan": "Janu�r",
+		"_feb": "Febru�r",
+		"_mar": "Marec",
+		"_apr": "Apr�l",
+		"_may": "M�j",
+		"_jun": "J�n",
+		"_jul": "J�l",
+		"_aug": "August",
+		"_sep": "September",
+		"_oct": "Okt�ber",
+		"_nov": "November",
+		"_dec": "December",
+		"_start": "�tart",
+		"_sendmeal": "Po�lite jedlo do kyberpriestoru",
+		"_uploadphotos": "Nahrat fotografie Va�ich jed�l",
+		"_play": "Hrat",
+		"_badges": "Odznaky"
+	},
+
+	"_navigation": {
+		"_home": "Domov",
+		"_leaderboard": "Poradie l�drov",
+		"_about": "O aplik�cii",
+		"_logout": "Odhl�sit",
+		"_verify": "Overit nahran� jedl�",
+        "_catalog": "katalóg",
+        "_europeana": "Prejsť na Europeana"
+	},
+
+	"_badges": {
+		"_geographical": "Geografick�",
+		"_challenges": "V�zvy",
+		"_uploads": "Obr�zky",
+		"_tounlock": "Odomkn�t odznak",
+		"_updatetitle": "Aktualizovat Titul",
+		"_share": "Zdielat",
+		"_close": "Zatvorit",
+		"_unlock_euro_geographical": "Odomkn�t ka�d� Geografick� odznak z Eur�py",
+		"_unlock_geographical": "Odomkn�t ka�d� Geografick� odznak",
+		"_unlock_scandinavia": "Hrat proti 5 ludom zo �kandin�vie",
+		"_unlock_western": "Hrat proti 5 ludom zo Z�padnej Eur�py",
+		"_unlock_central": "Hrat proti 5 ludom zo Strednej Eur�py",
+		"_unlock_eastern": "Hrat proti 5 ludom z V�chodnej Eur�py",
+		"_unlock_balkans": "Hrat proti 5 ludom z Balk�nu",
+		"_unlock_mediterranean": "Hrat proti 5 ludom zo Stredomoria",
+		"_unlock_asia": "Hrat proti 5 ludom z �zie",
+		"_unlock_africa": "Hrat proti 5 ludom z Afriky",
+		"_unlock_north_america": "Hrat proti 5 ludom zo Severnej / Strednej Ameriky",
+		"_unlock_latin_america": "Hrat proti 5 ludom z Latinskej Ameriky.",
+		"_unlock_middle_east": "Hrat proti 5 ludom zo Stredn�ho V�chodu.",
+		"_unlock_oceania": "Hrat proti 5 ludom z Oce�nie.",
+		"_unlock_1Challenge": "V�hra 1 V�zva",
+		"_unlock_5Challenges": "V�hra 5 V�ziev",
+		"_unlock_10Challenges": "V�hra 10 V�ziev",
+		"_unlock_25Challenges": "V�hra 25 V�ziev",
+		"_unlock_1share": "Zdielat 1 jedlo",
+		"_unlock_5shares": "Zdielat 5 jed�l",
+		"_unlock_10shares": "Zdielat 10 jed�l",
+		"_unlock_1upload": "Nahrat 1 jedlo",
+		"_unlock_2upload": "Nahrat 2 jedl�",
+		"_unlock_5upload": "Nahrat 5 jed�l",
+		"_unlock_10upload": "Nahrat 10 jed�l",
+		"_unlock_25upload": "Nahrat 25 jed�l"
+
+
+	},
+
+	"_leaderboard": {
+		"_points": "Z�skan� body",
+		"_challenges": "Vyhran� V�zvy",
+		"_week": "Tento t��den",
+		"_allTime": "Cel� cas"
+	},
+
+
+	"_about": {
+		"_upper": "Food Planet bola vytvoren� vdaka Europeana Food and Drink projektu, ktor� je financovan� Eur�pskou komisiou v r�mci programu na podporu politiky informacn�ch a komunikacn�ch technol�gi� v r�mci r�mcov�ho programu pre konkurencieschopnost a inov�cie.",
+		"_lower": "Cielom hry je vyzvat in�ch jednotlivcov z cel�ho sveta, z�skat zauj�mav� inform�cie o riadoch, stravovan�, pr�sad�ch, n�rad� a n�cin�, ktor� sa nach�dzaj� po celom svete.",
+		"_followup": "Vdaka tejto hre je tie� mo�n� zdielat svoje vlastn� obr�zky a nechat ostatn�ch h�dat, z ktorej krajiny t�-ktor� konkr�tna polo�ka poch�dza.",
+		"_letsstart": "Tak�e zacnime h�dat a zistovat odkial na Zemi tieto polo�ky s�!"
+	},
+
+	"_upload": {
+		"_upload": "Nahrat fotografiu",
+		"_whatdoyoucall": "Ako sa to vol�?",
+		"_wherefrom": "Odkial je to?",
+		"_enterdescription": "Vlo�it popis",
+		"_cyberspace": "Poslat do kyberpriestoru",
+		"_success": "Nahr�vanie bolo �spe�n�!",
+		"_thanks": "Dakujeme!",
+		"_sentforverification": "V� pr�spevok bol zaslan� na overenie",
+		"_failed": "Nahr�vanie zlyhalo",
+		"_tryagain": "Pros�m, pok�ste sa znova nesk�r",
+		"_return": "N�vrat domov"
+	},
+
+	"_verify": {
+		"_uploadedby": "Nahran� k�m:",
+		"_location": "Umiestnenie:",
+		"_description": "Popis:",
+		"_accept": "Akceptovat",
+		"_accept18": "Akceptovat 18+",
+		"_reject": "Odmietnut",
+		"_banUser": "Zak�zat pou��vatela",
+		"_nosubmissions": "�iadne pr�spevky"
+	},
+
+	"_challenge": {
+		"_start": "Na�tartovat v�zvu",
+		"_howto": "Ako Hrat",
+		"_challengeStart": "V�zva �tartuje o",
+		"_selectWhere": "Vyberte odkial mysl�te, �e jedlo poch�dza",
+		"_fasterAnswer": "C�m r�chlej�ie odpoviete, t�m viacej bodov z�skate",
+		"_somequestions": "Niektor� ot�zky m�u mat viac ako 1 odpoved",
+		"_questionof": "Ot�zka 1/5",
+		"_ouch": "Au!",
+		"_outoftime": "Cas vypr�al",
+		"_taptomoveon": "Kliknut�m prejst na!",
+		"_whereonearth": "Odkial na Zemi to je?",
+		"_5points": "5 bodov",
+		"_wronganswer": "Nespr�vna odpoved",
+		"_whatis": "Co je XXXX?",
+		"_yes": "�no!!",
+		"_rightanswer": "Spr�vna odpoved",
+		"_continue": "Pokracovat",
+		"_loading": "Nahr�vanie...",
+		"_end": "Koniec v�zvy",
+		"_win": "Vyhrali ste",
+		"_lose": "Prehrali ste",
+		"_tie": "Rem�za!",
+		"_points": "Va�e Body"
+	}
+}
