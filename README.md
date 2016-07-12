@@ -72,4 +72,11 @@ To do this, a file named `template/cron.php` was created which when opened will 
 
 ##### Adding Content
 
-The final thing left to do is add some content to our game. Navigate to the upload tool at `<DOMAIN-WHERE-YOU-UPLOADED-THE-FILES.com>/upload_tool/`. Over here simply fill out the fields of each item for your game and submit them. You **MUST** have at least five items uploaded.
+The final thing left to do is add some content to our game. Navigate to the upload tool at `<YOUR-DOMAIN.com>/upload_tool/`. Over here simply fill out the fields of each item for your game and submit them. You **MUST** have at least five items uploaded.
+
+## Conclusion
+
+That's it! If everything went according to plan you should now have your very own version of the game on your domain. We had to remove the question content from the template due to licensing but we threw in all the badges, country flags and icons. You will need to modify some of the text of course!
+
+Happy Playing!
+- AcrossLimits
