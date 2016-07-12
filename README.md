@@ -30,7 +30,10 @@ Finally, you will be taken to your new applications settings page. Take note of 
 Download the database schema `Schema.sql` found within the `Schema` folder. Create a mySQL database and run the schema within it, creating the required tables. 
 
 #### The Application
-In order to replicate the Food Planet codebase download the files in the template folder and upload them on to your file server via FTP or any other upload method. Find `DBConnection.php` within the `template/classes` and open it. Find the following lines of code on the top of the file and replace them with the information of the database you created in the previous step.
+In order to replicate the Food Planet codebase download the files in the template folder and upload them on to your file server via FTP or any other upload method. 
+
+##### Database Connections
+Find `DBConnection.php` within the `template/classes` and open it. Find the following lines of code on the top of the file and replace them with the information of the database you created in the previous step.
 
 ```php
 define('DB_SERVER', 'SERVER-ADDRESS');    // Replace SERVER-ADDRESS to your server domain/IP
@@ -40,3 +43,14 @@ define('DB_DATABASE', 'DATABASE NAME');   // Replace DATABASE NAME with your dat
 ```
 
 Repeat this step for the `DBConnection.php` file in `template/upload_tool/classes` and the `dbconfig.php` file in `template/php/Facebook`.
+
+##### Facebook Application Settings
+
+Locate `fbconfig.php` in `template/php/Facebook` and find the following lines within it:
+
+```php
+// init app with app id and secret
+FacebookSession::setDefaultApplication( 'FACEBOOK-APP-ID','FACEBOOK-APP-SECRET' );
+```
+
+Replace `FACEBOOK-APP-ID` and `FACEBOOK-APP-SECRET` with the values found in `The Facebook Application` above.
