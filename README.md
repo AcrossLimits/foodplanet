@@ -53,4 +53,4 @@ Locate `fbconfig.php` in `template/php/Facebook` and find the following lines wi
 FacebookSession::setDefaultApplication( 'FACEBOOK-APP-ID','FACEBOOK-APP-SECRET' );
 ```
 
-Replace `FACEBOOK-APP-ID` and `FACEBOOK-APP-SECRET` with the values found in `The Facebook Application` above.
+Replace `FACEBOOK-APP-ID` and `FACEBOOK-APP-SECRET` with the values found in [#The Facebook Application](https://github.com/AcrossLimits/foodplanet/blob/master/README.md#the-facebook-application) above.
