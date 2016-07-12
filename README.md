@@ -57,6 +57,10 @@ Replace `FACEBOOK-APP-ID` and `FACEBOOK-APP-SECRET` with the values found in [#T
 
 Return to the [Facebook Developers](https://developers.facebook.com/) page, select the application you created and navigate to `Settings`. Find the `Namespace` field and enter a unique one-word identifier for your application. In the `App Domains`field enter the URL of your application.
 
-Once you have updated your settings, navigate to `App Review` and change `Make <Application Name> public?` to Yes. If everything was succesfull then you should now be able to login to your app via Facebook.
+Once you have updated your settings, navigate to `App Review` and change `Make <Application Name> public?` to Yes. If everything was succesfull then you should now be able to login to your app via Facebook. Take a deep breath, we're almost done.
 
-##### The Game Manager
+##### The Scheduled Task/Cron
+
+The last thing we need to do is set up a scheduled task that will periodically clean up any residual challenges. In Food Planet, any challenges over 48 hours old are automatically closed, keeping things fresh. Another task done is re-opening challenges which for some reason might be marked as `occupied` however haven't concluded within an hour.
+
+To do this, a file named `template/cron.php` was created which when opened will run these tasks. In order to automate this, we need to create a scheduled task or cron job to execute this file at a regular interval. The way in which to do this differs from one host to another, so you will need to do your own research on how to set these up. In the case of Food Planet, `cron.php` was set up to execute every 30 minutes.
