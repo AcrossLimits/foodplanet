@@ -53,4 +53,10 @@ Locate `fbconfig.php` in `template/php/Facebook` and find the following lines wi
 FacebookSession::setDefaultApplication( 'FACEBOOK-APP-ID','FACEBOOK-APP-SECRET' );
 ```
 
-Replace `FACEBOOK-APP-ID` and `FACEBOOK-APP-SECRET` with the values found in [#The Facebook Application](https://github.com/AcrossLimits/foodplanet/blob/master/README.md#the-facebook-application) above.
+Replace `FACEBOOK-APP-ID` and `FACEBOOK-APP-SECRET` with the values found in [#The Facebook Application](https://github.com/AcrossLimits/foodplanet/blob/master/README.md#the-facebook-application) above. Do the same for `template/loginSubmit.php`
+
+Return to the [Facebook Developers](https://developers.facebook.com/) page, select the application you created and navigate to `Settings`. Find the `Namespace` field and enter a unique one-word identifier for your application. In the `App Domains`field enter the URL of your application.
+
+Once you have updated your settings, navigate to `App Review` and change `Make <Application Name> public?` to Yes. If everything was succesfull then you should now be able to login to your app via Facebook.
+
+##### The Game Manager
