@@ -79,4 +79,3 @@ The final thing left to do is add some content to our game. Navigate to the uplo
 That's it! If everything went according to plan you should now have your very own version of the game on your domain. We had to remove the question content from the template due to licensing but we threw in all the badges, country flags and icons. You will need to modify some of the text of course!
 
 Happy Playing!
-- AcrossLimits
