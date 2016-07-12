@@ -5,10 +5,10 @@ An open source PHP/HTML5 quiz framework based on the game Food Planet, an applic
 
 The original Food Planet game is free to download and can be found on [Google Play](https://play.google.com/store/apps/details?id=com.acrosslimits.foodplanet&hl=en), [iTunes](https://itunes.apple.com/us/app/food-planet/id1038410544?mt=8) and the [Microsoft App Store](https://www.microsoft.com/en-us/store/apps/food-planet/9nblggh6h48c).
 
-# Summary
+## Summary
 Food Planet is a game where players try and answer questions as quickly as possible receiving points based on the speed in which they give correct answers. In the scope of Food Planet, the player is presented with a food or drink item and four possible countries in which the item can originate from. The player selects the corresponding country and receives points depending on whether they are correct or not. After five questions, you user is shown his/her score and if applicable their opponents score too.
 
-# Requirements
+## Requirements
 In order to successfully replicate this application you must make sure you possess a server with the following:
 - PHP
 - mySQL
@@ -16,7 +16,7 @@ In order to successfully replicate this application you must make sure you posse
 - A fresh application registered on Facebook
 - Ability to create cron jobs or scheduled tasks
 
-# Replication
+## Replication
 Below see the steps you will need to take to replicate Food Planet
 
 #### The Facebook Application
