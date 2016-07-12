@@ -19,20 +19,20 @@ In order to successfully replicate this application you must make sure you posse
 ## Replication
 Below see the steps you will need to take to replicate Food Planet
 
-#### The Facebook Application
+#### - The Facebook Application
 This framework makes use of Facebook to handle logins. In order to facilitate this you need to create a blank Facebook application. To do this, navigate to the [Facebook Developers](https://developers.facebook.com/) page, login and then click `My Apps > Add a New App` from the menu in the top right of the page.
 
 When asked what platform to use, chose `Website`, give your new app a name and then click `Create New Facebook App ID`. When prompted, enter a contact email and select the category your new app will fall under, in our case `Games>Trivia & Word`. *You may need to prove you are human at this point.* You will then be taken to a Quick-start page, ignore this and simply click the `Skip Quickstart` button on the top right of the page.
 
 Finally, you will be taken to your new applications settings page. Take note of the `App ID` and `App Secret` as we will be using them later. At this point we have created a blank Facebook Application but we will be returning to this page later on to finish things up.
 
-#### The Database
+#### - The Database
 Download the database schema `Schema.sql` found within the `Schema` folder. Create a mySQL database and run the schema within it, creating the required tables. 
 
-#### The Application
+#### - The Application
 In order to replicate the Food Planet codebase download the files in the template folder and upload them on to your file server via FTP or any other upload method. 
 
-##### Database Connections
+#####  Database Connections
 Find `DBConnection.php` within the `template/classes` and open it. Find the following lines of code on the top of the file and replace them with the information of the database you created in the previous step.
 
 ```php
@@ -44,7 +44,7 @@ define('DB_DATABASE', 'DATABASE NAME');   // Replace DATABASE NAME with your dat
 
 Repeat this step for the `DBConnection.php` file in `template/upload_tool/classes` and the `dbconfig.php` file in `template/php/Facebook`.
 
-##### Facebook Application Settings
+#####  Facebook Application Settings
 
 Locate `fbconfig.php` in `template/php/Facebook` and find the following lines within it:
 
