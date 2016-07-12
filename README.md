@@ -19,6 +19,12 @@ In order to successfully replicate this application you must make sure you posse
 # Replication
 Below see the steps you will need to take to replicate Food Planet
 
+#### The Facebook Application
+This framework makes use of Facebook to handle logins. In order to facilitate this you need to create a blank Facebook application. To do this, navigate to the [Facebook Developers](https://developers.facebook.com/) page, login and then click `My Apps > Add a New App` from the menu in the top right of the page.
+
+When asked what platform to use, chose `Website`, give your new app a name and then click `Create New Facebook App ID`. When prompted, enter a contact email and select the category your new app will fall under, in our case `Games>Trivia & Word`. *You may need to prove you are human at this point.* You will then be taken to a Quick-start page, ignore this and simply click the `Skip Quickstart` button on the top right of the page.
+
+Finally, you will be taken to your new applications settings page. Take note of the `App ID` and `App Secret` as we will be using them later. At this point we have created a blank Facebook Application but we will be returning to this page later on to finish things up.
 
 #### The Database
 Download the database schema `Schema.sql` found within the `Schema` folder. Create a mySQL database and run the schema within it, creating the required tables. 
