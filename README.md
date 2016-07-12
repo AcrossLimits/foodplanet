@@ -32,10 +32,11 @@ Download the database schema `Schema.sql` found within the `Schema` folder. Crea
 #### The Application
 In order to replicate the Food Planet codebase download the files in the template folder and upload them on to your file server via FTP or any other upload method. Find `DBConnection.php` within the `template/classes` and open it. Find the following lines of code on the top of the file and replace them with the information of the database you created in the previous step.
 
-```
+```php
 define('DB_SERVER', 'SERVER-ADDRESS');    // Replace SERVER-ADDRESS to your server domain/IP
 define('DB_USERNAME', 'USERNAME');        // Replace USERNAME with your database admin username
 define('DB_PASSWORD', 'PASSWORD');        // Replace PASSWORD with your database admin password
 define('DB_DATABASE', 'DATABASE NAME');   // Replace DATABASE NAME with your database name
 ```
 
+Repeat this step for the `DBConnection.php` file in `template/upload_tool/classes` and the `dbconfig.php` file in `template/php/Facebook`.
