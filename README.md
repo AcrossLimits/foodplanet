@@ -59,8 +59,17 @@ Return to the [Facebook Developers](https://developers.facebook.com/) page, sele
 
 Once you have updated your settings, navigate to `App Review` and change `Make <Application Name> public?` to Yes. If everything was succesfull then you should now be able to login to your app via Facebook. Take a deep breath, we're almost done.
 
-##### The Scheduled Task/Cron
+##### Administrator Rights
+
+Log in to your database management tool (such as phpMyAdmin) and connect to the application database. Navigate to `tblUser`, find the row which contains your user data and change the value of `statusID` from `1` to `2`. This will set you up as an Administrator and allow you to verify user uploaded content in-game.
+
+
+##### The Scheduled Task/Cron Job
 
 The last thing we need to do is set up a scheduled task that will periodically clean up any residual challenges. In Food Planet, any challenges over 48 hours old are automatically closed, keeping things fresh. Another task done is re-opening challenges which for some reason might be marked as `occupied` however haven't concluded within an hour.
 
 To do this, a file named `template/cron.php` was created which when opened will run these tasks. In order to automate this, we need to create a scheduled task or cron job to execute this file at a regular interval. The way in which to do this differs from one host to another, so you will need to do your own research on how to set these up. In the case of Food Planet, `cron.php` was set up to execute every 30 minutes.
+
+##### Adding Content
+
+The final thing left to do is add some content to our game. Navigate to the upload tool at `<DOMAIN-WHERE-YOU-UPLOADED-THE-FILES.com>/upload_tool/`. Over here simply fill out the fields of each item for your game and submit them. You **MUST** have at least five items uploaded.
